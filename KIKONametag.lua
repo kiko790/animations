@@ -58,8 +58,8 @@ local customPlayers = {
     },
     ["Adamalchoum2"] = {
         color = Color3.fromRGB(128, 0, 128),
-        glowColor = Color3.fromRGB(255, 255, 255),
-        customName = "ARAB KNOB",
+        glowColor = Color3.fromRGB(0, 0, 0),
+        customName = "KNOBHEAD",
     },
 }
 
