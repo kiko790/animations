@@ -51,15 +51,15 @@ local customPlayers = {
         glowColor = Color3.fromRGB(0, 0, 0),
         customName = "Head Management",
     },
-    ["adamalchoum2"] = {
-        color = Color3.fromRGB(255, 255, 255),
-        glowColor = Color3.fromRGB(255, 255, 255),
-        customName = "SLAVE",
-    },
     ["gsrhgrhehdrh"] = {
         color = Color3.fromRGB(255, 192, 203),
         glowColor = Color3.fromRGB(255, 255, 255),
         customName = "MARLON",
+    },
+    ["Adamalchoum2"] = {
+        color = Color3.fromRGB(128, 0, 128),
+        glowColor = Color3.fromRGB(255, 255, 255),
+        customName = "ARAB KNOB",
     },
 }
 
