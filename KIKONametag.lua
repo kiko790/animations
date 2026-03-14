@@ -20,11 +20,6 @@ local DEFAULT_NAME = "KIKO USER"
 local MAX_DISTANCE = 100
 
 local customPlayers = {
-    ["GoIdNation"] = {
-        color = Color3.fromRGB(0, 0, 0),
-        glowColor = Color3.fromRGB(255, 255, 255),
-        customName = "Management",
-    },
     ["ykzott"] = {
         color = Color3.fromRGB(0, 0, 0),
         glowColor = Color3.fromRGB(255, 255, 255),
@@ -49,6 +44,11 @@ local customPlayers = {
         color = Color3.fromRGB(255, 255, 255),
         glowColor = Color3.fromRGB(0, 0, 0),
         customName = "OWNER",
+    },
+    ["6vryzx"] = {
+        color = Color3.fromRGB(0, 0, 0),
+        glowColor = Color3.fromRGB(0, 0, 0),
+        customName = "Head Management",
     },
 }
 
