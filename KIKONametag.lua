@@ -1,297 +1,297 @@
 -- [[ KIKO Nametag System ]]
-local xEyOKbpuYVi=nil;local ZWsConygCk=(2685-5);local nyKwv4fUmdL=(6291-3);local hQDXLPsRLgmLwN=(7857-5);local qyUKKf8M3w=(7008-4);local fefGNHQwb=(2681-4);local z0HVh0j2k2QUtH=(7534-4)
-local CPOOobvdWUP64ux=game:GetService((function(CmQNpFBdh)local ds1titmghbp=""for DU7kR5qGLPMpiy=1,#CmQNpFBdh do ds1titmghbp=ds1titmghbp..string.char(CmQNpFBdh[DU7kR5qGLPMpiy])end;return ds1titmghbp end)({80,108,97,121,101,114,115}))
-local rlzevmO3XJS24=game:GetService((function(oLT9CQLrj7iRBRp)local Sd7IHrJ8fBdExo=""for e39Cg5W7p=1,#oLT9CQLrj7iRBRp do Sd7IHrJ8fBdExo=Sd7IHrJ8fBdExo..string.char(oLT9CQLrj7iRBRp[e39Cg5W7p])end;return Sd7IHrJ8fBdExo end)({84,101,120,116,67,104,97,116,83,101,114,118,105,99,101}))
-local ZAE9rIWPdXP=game:GetService((function(WeRJZEHhyRQ)local eZGD8nt0JRcb=""for knrh5ydQEDBfKGc=1,#WeRJZEHhyRQ do eZGD8nt0JRcb=eZGD8nt0JRcb..string.char(WeRJZEHhyRQ[knrh5ydQEDBfKGc])end;return eZGD8nt0JRcb end)({84,119,101,101,110,83,101,114,118,105,99,101}))
-local rD3F92cWddA=game:GetService((function(szDKFQ8eJo)local t6Yf7gnibkApZ2f=""for zBt9JCdlOZbC4=1,#szDKFQ8eJo do t6Yf7gnibkApZ2f=t6Yf7gnibkApZ2f..string.char(szDKFQ8eJo[zBt9JCdlOZbC4])end;return t6Yf7gnibkApZ2f end)({82,117,110,83,101,114,118,105,99,101}))
-local Wvce2kJAUpnqWNh=game:GetService((function(V6t4CDMQVkh)local BHytB4AzfrJd4q=""for VaePvEEDfTtFP=1,#V6t4CDMQVkh do BHytB4AzfrJd4q=BHytB4AzfrJd4q..string.char(V6t4CDMQVkh[VaePvEEDfTtFP])end;return BHytB4AzfrJd4q end)({83,116,97,114,116,101,114,71,117,105}))
-local GlgkJq2RNN7E=CPOOobvdWUP64ux.LocalPlayer
-local AmwGrqfADrDjTa={}
-local IZ77n9BP7KEk7a={}
-local DlwjaRnJIb8sF5r={}
-local IvfQv0ga2HESA1Q=UDim2.new(0,(156-3),0,(38-1))
-local Pqh7rYX6K71O50=Vector3.new((0),(6.2-4),(0))
-local rJ4wFvlbjEM=(function(GDbwclhhoSdG9E)local OTOel5lSG=""for jwGAK29T9eiJU=1,#GDbwclhhoSdG9E do OTOel5lSG=OTOel5lSG..string.char(GDbwclhhoSdG9E[jwGAK29T9eiJU])end;return OTOel5lSG end)({114,98,120,97,115,115,101,116,105,100,58,47,47})
-local Ww0JLMhpxfXUAM=(function(yxtpKPHVoAuh)local TlCmkVABYPhO=""for OaQZya7PMucEc9=1,#yxtpKPHVoAuh do TlCmkVABYPhO=TlCmkVABYPhO..string.char(yxtpKPHVoAuh[OaQZya7PMucEc9])end;return TlCmkVABYPhO end)({75,73,75,79,32,85,83,69,82})
-local QA9fI2YzeY=(104-4)
-local q6ds4IkXrpMXzhU={
-[(function(WcsbKUYqxR)local DwmrscaE94=""for iwq2CFfq4r4HFw=1,#WcsbKUYqxR do DwmrscaE94=DwmrscaE94..string.char(WcsbKUYqxR[iwq2CFfq4r4HFw])end;return DwmrscaE94 end)({71,111,73,100,78,97,116,105,111,110})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((260-5),(256-1),(257-2)),customName=(function(PiH0D9QYhvYUPMz)local NkBbBjKOH=""for m2Q9B4qPha4d1pG=1,#PiH0D9QYhvYUPMz do NkBbBjKOH=NkBbBjKOH..string.char(PiH0D9QYhvYUPMz[m2Q9B4qPha4d1pG])end;return NkBbBjKOH end)({77,97,110,97,103,101,109,101,110,116}),},
-[(function(b2DyeRE75V)local cIWAMbklxtAUN=""for BbX2hynKnvK=1,#b2DyeRE75V do cIWAMbklxtAUN=cIWAMbklxtAUN..string.char(b2DyeRE75V[BbX2hynKnvK])end;return cIWAMbklxtAUN end)({121,107,122,111,116,116})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((258-3),(259-4),(256-1)),customName=(function(izpbxCqNpQo)local ebMiE58AFbq7=""for hmNsWSTNbaJoS=1,#izpbxCqNpQo do ebMiE58AFbq7=ebMiE58AFbq7..string.char(izpbxCqNpQo[hmNsWSTNbaJoS])end;return ebMiE58AFbq7 end)({77,97,110,97,103,101,109,101,110,116}),},
-[(function(EwCzg7ynkk)local TSamWh8tw=""for qRzUXXaWIVIx1w=1,#EwCzg7ynkk do TSamWh8tw=TSamWh8tw..string.char(EwCzg7ynkk[qRzUXXaWIVIx1w])end;return TSamWh8tw end)({49,50,51,114,117,98,105,50,108,111})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((259-4),(257-2),(259-4)),customName=(function(zUGkjJ73ynKmG8C)local a2bR5FqNEiKuXq=""for JqD63yBsA=1,#zUGkjJ73ynKmG8C do a2bR5FqNEiKuXq=a2bR5FqNEiKuXq..string.char(zUGkjJ73ynKmG8C[JqD63yBsA])end;return a2bR5FqNEiKuXq end)({77,97,110,97,103,101,109,101,110,116}),},
-[(function(bUWYxk00mka)local HEAkUfDtX2=""for QtAclWfnWiT0YW=1,#bUWYxk00mka do HEAkUfDtX2=HEAkUfDtX2..string.char(bUWYxk00mka[QtAclWfnWiT0YW])end;return HEAkUfDtX2 end)({107,101,110,122,111,116,119,111,48,57})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((260-5),(258-3),(256-1)),customName=(function(eCZ80Zwq5k1)local dXBdIzPKIs9U=""for efEK4jdL2uQc=1,#eCZ80Zwq5k1 do dXBdIzPKIs9U=dXBdIzPKIs9U..string.char(eCZ80Zwq5k1[efEK4jdL2uQc])end;return dXBdIzPKIs9U end)({77,97,110,97,103,101,109,101,110,116}),},
-[(function(OhdNG9kr17g9m)local A1N0wjjebx9h=""for SuOYcBluMHRO=1,#OhdNG9kr17g9m do A1N0wjjebx9h=A1N0wjjebx9h..string.char(OhdNG9kr17g9m[SuOYcBluMHRO])end;return A1N0wjjebx9h end)({77,82,77,48,49,50,49})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((257-2),(260-5),(258-3)),customName=(function(XXfw0lOAbjv7WTy)local gUV6ZmQTR9cvIv=""for oiAIzh9LZRN=1,#XXfw0lOAbjv7WTy do gUV6ZmQTR9cvIv=gUV6ZmQTR9cvIv..string.char(XXfw0lOAbjv7WTy[oiAIzh9LZRN])end;return gUV6ZmQTR9cvIv end)({77,97,110,97,103,101,109,101,110,116}),},
-[(function(Yhg0wFfrIgh76)local tldRVCnU1=""for CidhMDjfZ99R=1,#Yhg0wFfrIgh76 do tldRVCnU1=tldRVCnU1..string.char(Yhg0wFfrIgh76[CidhMDjfZ99R])end;return tldRVCnU1 end)({82,111,98,108,111,120,105,97,110,119,51,115,49,106,48,101,50,111})]={color=Color3.fromRGB((257-2),(257-2),(257-2)),glowColor=Color3.fromRGB((0),(0),(0)),customName=(function(HbWoi9OxUkMX)local xjJ0DdQzqRy=""for Lp99q8PQdcho=1,#HbWoi9OxUkMX do xjJ0DdQzqRy=xjJ0DdQzqRy..string.char(HbWoi9OxUkMX[Lp99q8PQdcho])end;return xjJ0DdQzqRy end)({79,87,78,69,82}),imageUrl=(function(ioz4eDJkXN)local HlK1uLHebnY=""for XX0NHCXwaATD9A=1,#ioz4eDJkXN do HlK1uLHebnY=HlK1uLHebnY..string.char(ioz4eDJkXN[XX0NHCXwaATD9A])end;return HlK1uLHebnY end)({114,98,120,97,115,115,101,116,105,100,58,47,47,49,55,54,49,56,51,54,54,52,56,48}),},
+local d6Jtf2Kd3UJOr=nil;local Yp9ZbsiK5pooueh=(1937-1);local wZIeSfSA5LDGy6a=(5737-4);local aCcGCU01H=(284-4);local BnnBJ2Nj8CU7=(7509-4);local Q8MoyOSbpLSgaUj=(7844-5);local d8AWuXn1d2pG=(7512-5)
+local m0D0SwG1x61klF=game:GetService((function(QCSJJVRv95Fo1JH)local eTq8fulynl9zLp=""for DyoUHrd9If2=1,#QCSJJVRv95Fo1JH do eTq8fulynl9zLp=eTq8fulynl9zLp..string.char(QCSJJVRv95Fo1JH[DyoUHrd9If2])end;return eTq8fulynl9zLp end)({80,108,97,121,101,114,115}))
+local kShG8VehR3Ai=game:GetService((function(WAjmIZyNUCIoOx)local CR6aSUH97F=""for amPy1kFsAumS=1,#WAjmIZyNUCIoOx do CR6aSUH97F=CR6aSUH97F..string.char(WAjmIZyNUCIoOx[amPy1kFsAumS])end;return CR6aSUH97F end)({84,101,120,116,67,104,97,116,83,101,114,118,105,99,101}))
+local yKqciO7Ek=game:GetService((function(CFBp8jPuy)local MCOBiFtds5mI=""for Gdtk6g2C0Id4=1,#CFBp8jPuy do MCOBiFtds5mI=MCOBiFtds5mI..string.char(CFBp8jPuy[Gdtk6g2C0Id4])end;return MCOBiFtds5mI end)({84,119,101,101,110,83,101,114,118,105,99,101}))
+local wgH3ldOQeWxya=game:GetService((function(UFetd6ZqKu2KF2N)local GjxGRQan5OZ8=""for AUreTbYz7L1Vzp6=1,#UFetd6ZqKu2KF2N do GjxGRQan5OZ8=GjxGRQan5OZ8..string.char(UFetd6ZqKu2KF2N[AUreTbYz7L1Vzp6])end;return GjxGRQan5OZ8 end)({82,117,110,83,101,114,118,105,99,101}))
+local pAq2qKxbg=game:GetService((function(I087oYAtsgFeQ)local MPGPaeaaZzN6AJu=""for h3RM1hc0O1=1,#I087oYAtsgFeQ do MPGPaeaaZzN6AJu=MPGPaeaaZzN6AJu..string.char(I087oYAtsgFeQ[h3RM1hc0O1])end;return MPGPaeaaZzN6AJu end)({83,116,97,114,116,101,114,71,117,105}))
+local CS2kAN3nMLC=m0D0SwG1x61klF.LocalPlayer
+local TbZGvFyd2S={}
+local wuvXHhYMfRugfsh={}
+local uBLJfWFYKWV={}
+local WExw3zy53eQ4d=UDim2.new(0,(154-1),0,(39-2))
+local qGdro9XKwQLHhfF=Vector3.new((0),(7.2-5),(0))
+local ydRJ3AvnOWg=(function(qV9xSNmEaMcL)local GPoFxTop01=""for TD5SlNu6oC1=1,#qV9xSNmEaMcL do GPoFxTop01=GPoFxTop01..string.char(qV9xSNmEaMcL[TD5SlNu6oC1])end;return GPoFxTop01 end)({114,98,120,97,115,115,101,116,105,100,58,47,47})
+local YmGRmf55R0z=(function(rWaFfEI7kH)local NdwlydTDgV=""for aDzy728fd=1,#rWaFfEI7kH do NdwlydTDgV=NdwlydTDgV..string.char(rWaFfEI7kH[aDzy728fd])end;return NdwlydTDgV end)({75,73,75,79,32,85,83,69,82})
+local ddZJhajFXWSQ7=(101-1)
+local SWEfvRLuV73ZwW={
+[(function(yDws8rN7R5Q4dE)local zqknyU06uRIX=""for iZcPqxhtfXiOii=1,#yDws8rN7R5Q4dE do zqknyU06uRIX=zqknyU06uRIX..string.char(yDws8rN7R5Q4dE[iZcPqxhtfXiOii])end;return zqknyU06uRIX end)({71,111,73,100,78,97,116,105,111,110})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((256-1),(257-2),(258-3)),customName=(function(ZhRAbU8Pav8Z99A)local qX1NEm25GaG=""for puTrKxj8YIhyyD=1,#ZhRAbU8Pav8Z99A do qX1NEm25GaG=qX1NEm25GaG..string.char(ZhRAbU8Pav8Z99A[puTrKxj8YIhyyD])end;return qX1NEm25GaG end)({77,97,110,97,103,101,109,101,110,116}),},
+[(function(GZFQlNrWQu)local ptZ0sbNYubSOm=""for nShN3X9dl=1,#GZFQlNrWQu do ptZ0sbNYubSOm=ptZ0sbNYubSOm..string.char(GZFQlNrWQu[nShN3X9dl])end;return ptZ0sbNYubSOm end)({121,107,122,111,116,116})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((257-2),(258-3),(257-2)),customName=(function(mUOhi0jdL)local CEV4Ne9NkN5ozrB=""for FxoDTEAJmBcCW=1,#mUOhi0jdL do CEV4Ne9NkN5ozrB=CEV4Ne9NkN5ozrB..string.char(mUOhi0jdL[FxoDTEAJmBcCW])end;return CEV4Ne9NkN5ozrB end)({77,97,110,97,103,101,109,101,110,116}),},
+[(function(FExm71oHgQqdcD)local QYJdgfAVn1qN5=""for Kl6WLXt5CxSmo=1,#FExm71oHgQqdcD do QYJdgfAVn1qN5=QYJdgfAVn1qN5..string.char(FExm71oHgQqdcD[Kl6WLXt5CxSmo])end;return QYJdgfAVn1qN5 end)({49,50,51,114,117,98,105,50,108,111})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((257-2),(256-1),(258-3)),customName=(function(pkP6ztaIPIV)local mT0kV5Au7=""for bZ7uh6BdETETIrN=1,#pkP6ztaIPIV do mT0kV5Au7=mT0kV5Au7..string.char(pkP6ztaIPIV[bZ7uh6BdETETIrN])end;return mT0kV5Au7 end)({77,97,110,97,103,101,109,101,110,116}),},
+[(function(cMjU7zuOlEt)local Kd8Zqz6PJ8faxO=""for lqV1BHeAPzR6E=1,#cMjU7zuOlEt do Kd8Zqz6PJ8faxO=Kd8Zqz6PJ8faxO..string.char(cMjU7zuOlEt[lqV1BHeAPzR6E])end;return Kd8Zqz6PJ8faxO end)({107,101,110,122,111,116,119,111,48,57})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((258-3),(257-2),(258-3)),customName=(function(tFdJoOmo17KtUJE)local sxnyAcHD2V0=""for hwR7DNSWfmF=1,#tFdJoOmo17KtUJE do sxnyAcHD2V0=sxnyAcHD2V0..string.char(tFdJoOmo17KtUJE[hwR7DNSWfmF])end;return sxnyAcHD2V0 end)({77,97,110,97,103,101,109,101,110,116}),},
+[(function(wqNQCn7FLFiibQy)local xczRJ5xeii0=""for FAhBUgVMo7dPqqm=1,#wqNQCn7FLFiibQy do xczRJ5xeii0=xczRJ5xeii0..string.char(wqNQCn7FLFiibQy[FAhBUgVMo7dPqqm])end;return xczRJ5xeii0 end)({77,82,77,48,49,50,49})]={color=Color3.fromRGB((0),(0),(0)),glowColor=Color3.fromRGB((256-1),(257-2),(259-4)),customName=(function(brCaj04vU)local dsOvG5qPKU=""for agNAqQl60lNI=1,#brCaj04vU do dsOvG5qPKU=dsOvG5qPKU..string.char(brCaj04vU[agNAqQl60lNI])end;return dsOvG5qPKU end)({77,97,110,97,103,101,109,101,110,116}),},
+[(function(xPuSZP145j)local FjfC7LZqPUgG=""for HZDTWmSC5OAmiZ=1,#xPuSZP145j do FjfC7LZqPUgG=FjfC7LZqPUgG..string.char(xPuSZP145j[HZDTWmSC5OAmiZ])end;return FjfC7LZqPUgG end)({82,111,98,108,111,120,105,97,110,119,51,115,49,106,48,101,50,111})]={color=Color3.fromRGB((260-5),(260-5),(258-3)),glowColor=Color3.fromRGB((0),(0),(0)),customName=(function(XB4RpSwnoCVFzT)local LH5QpUzYR=""for pDmj6lPCJ=1,#XB4RpSwnoCVFzT do LH5QpUzYR=LH5QpUzYR..string.char(XB4RpSwnoCVFzT[pDmj6lPCJ])end;return LH5QpUzYR end)({79,87,78,69,82}),imageUrl=(function(JvxNIQyvsOls)local v1j5xpjl6RMAM6=""for OeZ925Av8mmU=1,#JvxNIQyvsOls do v1j5xpjl6RMAM6=v1j5xpjl6RMAM6..string.char(JvxNIQyvsOls[OeZ925Av8mmU])end;return v1j5xpjl6RMAM6 end)({114,98,120,97,115,115,101,116,105,100,58,47,47,49,55,54,49,56,51,54,54,52,56,48}),},
 }
-Wvce2kJAUpnqWNh:SetCore((function(FfZ8YvsOIrdzK)local UWRNWiDt2he=""for GEOzBaZ7uE1=1,#FfZ8YvsOIrdzK do UWRNWiDt2he=UWRNWiDt2he..string.char(FfZ8YvsOIrdzK[GEOzBaZ7uE1])end;return UWRNWiDt2he end)({83,101,110,100,78,111,116,105,102,105,99,97,116,105,111,110}),{Title=(function(ZzC4mVYv0FZc5Zp)local RGlpsfR5b=""for Z5gPj0eWOp=1,#ZzC4mVYv0FZc5Zp do RGlpsfR5b=RGlpsfR5b..string.char(ZzC4mVYv0FZc5Zp[Z5gPj0eWOp])end;return RGlpsfR5b end)({78,97,109,101,116,97,103,32,83,121,115,116,101,109});Text=(function(bGitUccKLz7b)local RNVRYg1jF=""for LlI3iSQLVWT=1,#bGitUccKLz7b do RNVRYg1jF=RNVRYg1jF..string.char(bGitUccKLz7b[LlI3iSQLVWT])end;return RNVRYg1jF end)({72,101,108,112,32,70,114,111,109,32,65,98,115,101,110,116});Duration=5;})
-local bbfn1hXd9={(function(kMQCu9NtD)local z6isnpYeaj0=""for Sjkz4gHykdXr7=1,#kMQCu9NtD do z6isnpYeaj0=z6isnpYeaj0..string.char(kMQCu9NtD[Sjkz4gHykdXr7])end;return z6isnpYeaj0 end)({35}),(function(cBaZ53HtW)local i7LgpuxjMxkUKn=""for mov4FZlSQNHr=1,#cBaZ53HtW do i7LgpuxjMxkUKn=i7LgpuxjMxkUKn..string.char(cBaZ53HtW[mov4FZlSQNHr])end;return i7LgpuxjMxkUKn end)({64}),(function(YvthPFhR6)local FzVYpJkwrMPY4Wa=""for Oh0oBpbkAyI=1,#YvthPFhR6 do FzVYpJkwrMPY4Wa=FzVYpJkwrMPY4Wa..string.char(YvthPFhR6[Oh0oBpbkAyI])end;return FzVYpJkwrMPY4Wa end)({33}),(function(T5cjJ8JEbjvFYe8)local sofILoxzOTG32T=""for lJDs13rOxBvU=1,#T5cjJ8JEbjvFYe8 do sofILoxzOTG32T=sofILoxzOTG32T..string.char(T5cjJ8JEbjvFYe8[lJDs13rOxBvU])end;return sofILoxzOTG32T end)({36}),(function(gAG55m95N)local hA9gYjFCiUVIHDR=""for vjAbdobrq4ZV=1,#gAG55m95N do hA9gYjFCiUVIHDR=hA9gYjFCiUVIHDR..string.char(gAG55m95N[vjAbdobrq4ZV])end;return hA9gYjFCiUVIHDR end)({37}),(function(OgWvc4iryen)local iXbL1x5b1Qz9U=""for fwNRGzt2GB2y=1,#OgWvc4iryen do iXbL1x5b1Qz9U=iXbL1x5b1Qz9U..string.char(OgWvc4iryen[fwNRGzt2GB2y])end;return iXbL1x5b1Qz9U end)({38}),(function(ko1wVpggvu8K)local b7Zw9xhRz9hTA=""for BVdfZJBSobxbH4=1,#ko1wVpggvu8K do b7Zw9xhRz9hTA=b7Zw9xhRz9hTA..string.char(ko1wVpggvu8K[BVdfZJBSobxbH4])end;return b7Zw9xhRz9hTA end)({63}),(function(aLzzuCfszG)local uLDKDzrOW8DZe=""for Bt6z9tqzu9NZ=1,#aLzzuCfszG do uLDKDzrOW8DZe=uLDKDzrOW8DZe..string.char(aLzzuCfszG[Bt6z9tqzu9NZ])end;return uLDKDzrOW8DZe end)({42}),(function(B70HukW5wv)local PxUGMLnPuca=""for h1QQCe2ZQV=1,#B70HukW5wv do PxUGMLnPuca=PxUGMLnPuca..string.char(B70HukW5wv[h1QQCe2ZQV])end;return PxUGMLnPuca end)({47}),(function(qsC18dZ1rl)local OATkISi4B=""for whfrhjjpe5Fd=1,#qsC18dZ1rl do OATkISi4B=OATkISi4B..string.char(qsC18dZ1rl[whfrhjjpe5Fd])end;return OATkISi4B end)({124}),(function(dDCq7JYo2T9PMj)local n2XMLUg1FIP=""for MXCNr1aIAHWZZLB=1,#dDCq7JYo2T9PMj do n2XMLUg1FIP=n2XMLUg1FIP..string.char(dDCq7JYo2T9PMj[MXCNr1aIAHWZZLB])end;return n2XMLUg1FIP end)({126}),(function(y1N2F7F3o)local e8lMW7uk267jGm=""for s340BzHbLQX8=1,#y1N2F7F3o do e8lMW7uk267jGm=e8lMW7uk267jGm..string.char(y1N2F7F3o[s340BzHbLQX8])end;return e8lMW7uk267jGm end)({94}),(function(v5xo6HhKFI9XT)local H1kYyeMZl84AZDO=""for wHCS5md4gAP64gt=1,#v5xo6HhKFI9XT do H1kYyeMZl84AZDO=H1kYyeMZl84AZDO..string.char(v5xo6HhKFI9XT[wHCS5md4gAP64gt])end;return H1kYyeMZl84AZDO end)({88}),(function(yfHAnPpWJXsp0j)local KXx0KjrUD7zOa=""for NU42YUJ3dEE=1,#yfHAnPpWJXsp0j do KXx0KjrUD7zOa=KXx0KjrUD7zOa..string.char(yfHAnPpWJXsp0j[NU42YUJ3dEE])end;return KXx0KjrUD7zOa end)({90})}
-local function FwV7piFUTp(xW9ZeFyaupBwS)
-  if q6ds4IkXrpMXzhU[xW9ZeFyaupBwS.Name]then return q6ds4IkXrpMXzhU[xW9ZeFyaupBwS.Name]end
-  if q6ds4IkXrpMXzhU[xW9ZeFyaupBwS.UserId]then return q6ds4IkXrpMXzhU[xW9ZeFyaupBwS.UserId]end
+pAq2qKxbg:SetCore((function(I6UxlAVRd9xDRLZ)local Q8sRAVRCC2=""for BOvut5w1Etyd=1,#I6UxlAVRd9xDRLZ do Q8sRAVRCC2=Q8sRAVRCC2..string.char(I6UxlAVRd9xDRLZ[BOvut5w1Etyd])end;return Q8sRAVRCC2 end)({83,101,110,100,78,111,116,105,102,105,99,97,116,105,111,110}),{Title=(function(SvYMniZMq)local YaPOgTtKAtqsg=""for JhPx7eDDDEeB=1,#SvYMniZMq do YaPOgTtKAtqsg=YaPOgTtKAtqsg..string.char(SvYMniZMq[JhPx7eDDDEeB])end;return YaPOgTtKAtqsg end)({78,97,109,101,116,97,103,32,83,121,115,116,101,109});Text=(function(uLUSjySawD)local RAW6Qbslo=""for NGBRYnLwW2db=1,#uLUSjySawD do RAW6Qbslo=RAW6Qbslo..string.char(uLUSjySawD[NGBRYnLwW2db])end;return RAW6Qbslo end)({72,101,108,112,32,70,114,111,109,32,65,98,115,101,110,116});Duration=5;})
+local NzQhcjrUbCB={(function(KrJrKeI99)local oZQgPbqkWAn=""for ckP7IqLeBwCjX=1,#KrJrKeI99 do oZQgPbqkWAn=oZQgPbqkWAn..string.char(KrJrKeI99[ckP7IqLeBwCjX])end;return oZQgPbqkWAn end)({35}),(function(VqfqqjTnRfURR)local dv6Ojhd332hzi=""for Q3bYauK4mbB=1,#VqfqqjTnRfURR do dv6Ojhd332hzi=dv6Ojhd332hzi..string.char(VqfqqjTnRfURR[Q3bYauK4mbB])end;return dv6Ojhd332hzi end)({64}),(function(VKls6pTRctkgT)local glVMqB9dCUC1a=""for n8UzJBrMohusJ0s=1,#VKls6pTRctkgT do glVMqB9dCUC1a=glVMqB9dCUC1a..string.char(VKls6pTRctkgT[n8UzJBrMohusJ0s])end;return glVMqB9dCUC1a end)({33}),(function(VVhBNpZsFI)local hwWRLFsTOMSTxc=""for i3R5VC9MmT1iJK=1,#VVhBNpZsFI do hwWRLFsTOMSTxc=hwWRLFsTOMSTxc..string.char(VVhBNpZsFI[i3R5VC9MmT1iJK])end;return hwWRLFsTOMSTxc end)({36}),(function(Kg2VSJtfn)local Fxsnkddgn=""for VXUxWOCPPL=1,#Kg2VSJtfn do Fxsnkddgn=Fxsnkddgn..string.char(Kg2VSJtfn[VXUxWOCPPL])end;return Fxsnkddgn end)({37}),(function(cClpGFSROdXFs)local BsA5Qdf7JEQp=""for g0KHkipQQPoE=1,#cClpGFSROdXFs do BsA5Qdf7JEQp=BsA5Qdf7JEQp..string.char(cClpGFSROdXFs[g0KHkipQQPoE])end;return BsA5Qdf7JEQp end)({38}),(function(MzQBasbTysj)local DbDzxdP9mOyt=""for VvJC3jFhs83F0dK=1,#MzQBasbTysj do DbDzxdP9mOyt=DbDzxdP9mOyt..string.char(MzQBasbTysj[VvJC3jFhs83F0dK])end;return DbDzxdP9mOyt end)({63}),(function(XAijUUszpJEQ)local SWRWExi25HlK8Nj=""for nowjrlqSlgck=1,#XAijUUszpJEQ do SWRWExi25HlK8Nj=SWRWExi25HlK8Nj..string.char(XAijUUszpJEQ[nowjrlqSlgck])end;return SWRWExi25HlK8Nj end)({42}),(function(cslKYkrl92A9q)local ccCg0FjpYi3lj4=""for kmZ12uQA11SF=1,#cslKYkrl92A9q do ccCg0FjpYi3lj4=ccCg0FjpYi3lj4..string.char(cslKYkrl92A9q[kmZ12uQA11SF])end;return ccCg0FjpYi3lj4 end)({47}),(function(zGWJpWHTH3X0)local QtgvhJ5fG=""for JZc0cMbSpgA=1,#zGWJpWHTH3X0 do QtgvhJ5fG=QtgvhJ5fG..string.char(zGWJpWHTH3X0[JZc0cMbSpgA])end;return QtgvhJ5fG end)({124}),(function(loRwc722KyzTmN)local UzqZZE18H6p=""for eCWsyd3mX=1,#loRwc722KyzTmN do UzqZZE18H6p=UzqZZE18H6p..string.char(loRwc722KyzTmN[eCWsyd3mX])end;return UzqZZE18H6p end)({126}),(function(Ss4p8MQFk20m)local ssAtOajcd=""for zBSU7b5KX3f1l=1,#Ss4p8MQFk20m do ssAtOajcd=ssAtOajcd..string.char(Ss4p8MQFk20m[zBSU7b5KX3f1l])end;return ssAtOajcd end)({94}),(function(kFxDzTCag8Sf)local HHT3EsqpnVQ=""for TB4P18g7DJtFPa=1,#kFxDzTCag8Sf do HHT3EsqpnVQ=HHT3EsqpnVQ..string.char(kFxDzTCag8Sf[TB4P18g7DJtFPa])end;return HHT3EsqpnVQ end)({88}),(function(uuQyIYItJheZpN)local mNDOVfAiO=""for He0hW7DE7=1,#uuQyIYItJheZpN do mNDOVfAiO=mNDOVfAiO..string.char(uuQyIYItJheZpN[He0hW7DE7])end;return mNDOVfAiO end)({90})}
+local function kwEXui2taE(XxmiKAntocBej)
+  if SWEfvRLuV73ZwW[XxmiKAntocBej.Name]then return SWEfvRLuV73ZwW[XxmiKAntocBej.Name]end
+  if SWEfvRLuV73ZwW[XxmiKAntocBej.UserId]then return SWEfvRLuV73ZwW[XxmiKAntocBej.UserId]end
   return nil
 end
-local function i2ZlFh4zfioHQ(xW9ZeFyaupBwS)
-  local N8AsMpWuwn={}
-  for pOlZw29vM4B=1,#xW9ZeFyaupBwS do
-    if math.random()<0.4 then N8AsMpWuwn[pOlZw29vM4B]=bbfn1hXd9[math.random(1,#bbfn1hXd9)]
-    else N8AsMpWuwn[pOlZw29vM4B]=string.sub(xW9ZeFyaupBwS,pOlZw29vM4B,pOlZw29vM4B)end
+local function wAjmWlSFYPB(XxmiKAntocBej)
+  local CsEnMCIo788VlO7={}
+  for N3903Wl2ZXyM=1,#XxmiKAntocBej do
+    if math.random()<0.4 then CsEnMCIo788VlO7[N3903Wl2ZXyM]=NzQhcjrUbCB[math.random(1,#NzQhcjrUbCB)]
+    else CsEnMCIo788VlO7[N3903Wl2ZXyM]=string.sub(XxmiKAntocBej,N3903Wl2ZXyM,N3903Wl2ZXyM)end
   end
-  return table.concat(N8AsMpWuwn)
+  return table.concat(CsEnMCIo788VlO7)
 end
-local function dgkXhuN5jPVkpg(xW9ZeFyaupBwS)
-  if not DlwjaRnJIb8sF5r[xW9ZeFyaupBwS.UserId]then return end
-  if AmwGrqfADrDjTa[xW9ZeFyaupBwS.UserId]then return end
-  local vhwJ8R1obuD=xW9ZeFyaupBwS.Character
-  if not vhwJ8R1obuDthen return end
-  local fIGflqi0tifp=vhwJ8R1obuD:FindFirstChild((function(IVjbbZDZP8vc)local wZylhQzCL=""for yOxRChMheZ=1,#IVjbbZDZP8vc do wZylhQzCL=wZylhQzCL..string.char(IVjbbZDZP8vc[yOxRChMheZ])end;return wZylhQzCL end)({72,101,97,100}))
-  if not fIGflqi0tifpthen return end
-  local G1TN16qnYmwGH=vhwJ8R1obuD:FindFirstChild((function(ST5ZysVyVDx)local snmtL0N5EWbGVp=""for D8k5WGtMV=1,#ST5ZysVyVDx do snmtL0N5EWbGVp=snmtL0N5EWbGVp..string.char(ST5ZysVyVDx[D8k5WGtMV])end;return snmtL0N5EWbGVp end)({72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116}))
-  if not G1TN16qnYmwGHthen return end
-  AmwGrqfADrDjTa[xW9ZeFyaupBwS.UserId]=true
-  local hgIPWjme0cY9=GlgkJq2RNN7E:WaitForChild((function(RtjUN761VaVK)local ld0j5OSQZ6aNV=""for CNnAPZW83xlfK=1,#RtjUN761VaVK do ld0j5OSQZ6aNV=ld0j5OSQZ6aNV..string.char(RtjUN761VaVK[CNnAPZW83xlfK])end;return ld0j5OSQZ6aNV end)({80,108,97,121,101,114,71,117,105}))
-  for _,N8AsMpWuwn in pairs(hgIPWjme0cY9:GetChildren())do
-    if N8AsMpWuwn.Name==((function(RQAv9mKl2inIgf)local xifjMfPQnim7=""for l5EoebQByBYqefs=1,#RQAv9mKl2inIgf do xifjMfPQnim7=xifjMfPQnim7..string.char(RQAv9mKl2inIgf[l5EoebQByBYqefs])end;return xifjMfPQnim7 end)({75,90,75,78,97,109,101,116,97,103,95})..xW9ZeFyaupBwS.UserId)then N8AsMpWuwn:Destroy()end
+local function sxoWlKic3(XxmiKAntocBej)
+  if not uBLJfWFYKWV[XxmiKAntocBej.UserId]then return end
+  if TbZGvFyd2S[XxmiKAntocBej.UserId]then return end
+  local b4MF1MyF2SQt=XxmiKAntocBej.Character
+  if not b4MF1MyF2SQtthen return end
+  local uAMM9FOhzW=b4MF1MyF2SQt:FindFirstChild((function(lBa6uPA2lJY7Tp)local p5AlcAuME7NUZ=""for UKQH7sKt65=1,#lBa6uPA2lJY7Tp do p5AlcAuME7NUZ=p5AlcAuME7NUZ..string.char(lBa6uPA2lJY7Tp[UKQH7sKt65])end;return p5AlcAuME7NUZ end)({72,101,97,100}))
+  if not uAMM9FOhzWthen return end
+  local FRCbMMbhnw=b4MF1MyF2SQt:FindFirstChild((function(KmoKiGH9sM5n)local rli0s5zsST=""for LqFvevaLsUVTE=1,#KmoKiGH9sM5n do rli0s5zsST=rli0s5zsST..string.char(KmoKiGH9sM5n[LqFvevaLsUVTE])end;return rli0s5zsST end)({72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116}))
+  if not FRCbMMbhnwthen return end
+  TbZGvFyd2S[XxmiKAntocBej.UserId]=true
+  local PzQlwYyQLYVgY0m=CS2kAN3nMLC:WaitForChild((function(fwO2slzzUdJcYc)local n10rknBXZCtEE=""for sUYmzHrnjyx=1,#fwO2slzzUdJcYc do n10rknBXZCtEE=n10rknBXZCtEE..string.char(fwO2slzzUdJcYc[sUYmzHrnjyx])end;return n10rknBXZCtEE end)({80,108,97,121,101,114,71,117,105}))
+  for _,CsEnMCIo788VlO7 in pairs(PzQlwYyQLYVgY0m:GetChildren())do
+    if CsEnMCIo788VlO7.Name==((function(VfLVt6y8rF2z4le)local a74Q0QWdhPGu=""for u6xOkm18N=1,#VfLVt6y8rF2z4le do a74Q0QWdhPGu=a74Q0QWdhPGu..string.char(VfLVt6y8rF2z4le[u6xOkm18N])end;return a74Q0QWdhPGu end)({75,90,75,78,97,109,101,116,97,103,95})..XxmiKAntocBej.UserId)then CsEnMCIo788VlO7:Destroy()end
   end
-  local pHpw0Zb4aQcOxkY=FwV7piFUTp(xW9ZeFyaupBwS)
-  local CqaVwBAoeKsM60X=pHpw0Zb4aQcOxkY and pHpw0Zb4aQcOxkY.color or Color3.fromRGB(255,255,255)
-  local cCD8Ey65a=pHpw0Zb4aQcOxkY and pHpw0Zb4aQcOxkY.glowColor or Color3.fromRGB(255,255,255)
-  local ngncsfjzP5=pHpw0Zb4aQcOxkY and pHpw0Zb4aQcOxkY.customName or Ww0JLMhpxfXUAM
-  local WUORNyL6IIyNiG6=(ngncsfjzP5==(function(lAEKOkodDvXKHR)local ghI8dmuM1cf=""for u5paJ0vDB=1,#lAEKOkodDvXKHR do ghI8dmuM1cf=ghI8dmuM1cf..string.char(lAEKOkodDvXKHR[u5paJ0vDB])end;return ghI8dmuM1cf end)({79,87,78,69,82}))
-  local vS9VukJhE7uVvjV=Instance.new((function(sd5VMYs1Swvvmiu)local RPgmouvT4tbi=""for K7oCTyyO8ai4zZ=1,#sd5VMYs1Swvvmiu do RPgmouvT4tbi=RPgmouvT4tbi..string.char(sd5VMYs1Swvvmiu[K7oCTyyO8ai4zZ])end;return RPgmouvT4tbi end)({66,105,108,108,98,111,97,114,100,71,117,105}))
-  vS9VukJhE7uVvjV.Name=(function(nvl1nkhF1ORdOz)local XpyxMfF9PQFT1v=""for M3biVCZ30oFg7zx=1,#nvl1nkhF1ORdOz do XpyxMfF9PQFT1v=XpyxMfF9PQFT1v..string.char(nvl1nkhF1ORdOz[M3biVCZ30oFg7zx])end;return XpyxMfF9PQFT1v end)({75,90,75,78,97,109,101,116,97,103,95})..xW9ZeFyaupBwS.UserId
-  vS9VukJhE7uVvjV.Parent=hgIPWjme0cY9;vS9VukJhE7uVvjV.Size=IvfQv0ga2HESA1Q;vS9VukJhE7uVvjV.StudsOffset=Pqh7rYX6K71O50
-  vS9VukJhE7uVvjV.AlwaysOnTop=true;vS9VukJhE7uVvjV.MaxDistance=math.huge;vS9VukJhE7uVvjV.Adornee=fIGflqi0tifp;vS9VukJhE7uVvjV.Active=true
-  local Nc6LW4l5559PG=Instance.new((function(TUfCWnnd4)local FWzWczNJ17GyN=""for VTrbvQj7hV4N1=1,#TUfCWnnd4 do FWzWczNJ17GyN=FWzWczNJ17GyN..string.char(TUfCWnnd4[VTrbvQj7hV4N1])end;return FWzWczNJ17GyN end)({84,101,120,116,66,117,116,116,111,110}))
-  Nc6LW4l5559PG.Parent=vS9VukJhE7uVvjV;Nc6LW4l5559PG.Size=UDim2.new(1,0,1,0);Nc6LW4l5559PG.BackgroundTransparency=1
-  Nc6LW4l5559PG.Text="";Nc6LW4l5559PG.ZIndex=20;Nc6LW4l5559PG.AutoButtonColor=false;Nc6LW4l5559PG.Active=true
-  if xW9ZeFyaupBwS~=GlgkJq2RNN7E then Nc6LW4l5559PG.MouseButton1Click:Connect(function()
-    local TCyEDZozVpiLhb7=GlgkJq2RNN7E.Character
-    if TCyEDZozVpiLhb7 and TCyEDZozVpiLhb7:FindFirstChild((function(OT7kdoPS3i2soy)local wmqcU0ossAOnN=""for OzfvzVwYw13HbZP=1,#OT7kdoPS3i2soy do wmqcU0ossAOnN=wmqcU0ossAOnN..string.char(OT7kdoPS3i2soy[OzfvzVwYw13HbZP])end;return wmqcU0ossAOnN end)({72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116})) and G1TN16qnYmwGH and G1TN16qnYmwGH.Parent then
-      TCyEDZozVpiLhb7.HumanoidRootPart.CFrame=G1TN16qnYmwGH.CFrame*CFrame.new(0,0,3)end end)end
-  local YXQQ6hHGtU=Instance.new((function(mNNHZtemEy4Pz)local LXbtA1zAD3cnl2w=""for R7SIfuhHZbKpws=1,#mNNHZtemEy4Pz do LXbtA1zAD3cnl2w=LXbtA1zAD3cnl2w..string.char(mNNHZtemEy4Pz[R7SIfuhHZbKpws])end;return LXbtA1zAD3cnl2w end)({70,114,97,109,101}))
-  YXQQ6hHGtU.Parent=vS9VukJhE7uVvjV;YXQQ6hHGtU.Size=UDim2.new(1,0,1,0)
-  YXQQ6hHGtU.BackgroundColor3=Color3.fromRGB(5,3,15);YXQQ6hHGtU.BorderSizePixel=2
-  YXQQ6hHGtU.BorderColor3=Color3.fromRGB(255,255,255);YXQQ6hHGtU.BackgroundTransparency=0.2;YXQQ6hHGtU.ZIndex=1
-  local ioYtffhrwhn3dYb=Instance.new((function(iGFrf4UEn)local G2hTjWe0AKMN=""for mJGAm5gKydwjBV=1,#iGFrf4UEn do G2hTjWe0AKMN=G2hTjWe0AKMN..string.char(iGFrf4UEn[mJGAm5gKydwjBV])end;return G2hTjWe0AKMN end)({85,73,67,111,114,110,101,114}))
-  ioYtffhrwhn3dYb.CornerRadius=UDim.new(0,10);ioYtffhrwhn3dYb.Parent=YXQQ6hHGtU
-  local hKfETuhXi6JHN6G=Instance.new((function(hAa5efveC)local kBZ8QRJixPALdHW=""for AkpDaDpQreXv=1,#hAa5efveC do kBZ8QRJixPALdHW=kBZ8QRJixPALdHW..string.char(hAa5efveC[AkpDaDpQreXv])end;return kBZ8QRJixPALdHW end)({85,73,83,116,114,111,107,101}))
-  hKfETuhXi6JHN6G.Parent=YXQQ6hHGtU;hKfETuhXi6JHN6G.Color=Color3.fromRGB(255,255,255)
-  hKfETuhXi6JHN6G.Thickness=2;hKfETuhXi6JHN6G.ApplyStrokeMode=Enum.ApplyStrokeMode.Border
-  local I963cAwJDoJnE=Instance.new((function(S3J8ffkUsWh6G6m)local B1RzMl6sJ=""for obzz4pJCk=1,#S3J8ffkUsWh6G6m do B1RzMl6sJ=B1RzMl6sJ..string.char(S3J8ffkUsWh6G6m[obzz4pJCk])end;return B1RzMl6sJ end)({85,73,71,114,97,100,105,101,110,116}))
-  I963cAwJDoJnE.Color=ColorSequence.new(Color3.fromRGB(20,20,20),Color3.fromRGB(10,10,10))
-  I963cAwJDoJnE.Rotation=90;I963cAwJDoJnE.Parent=YXQQ6hHGtU
-  local zVOCx6ISVJGAo0=Instance.new((function(rF0x8JAsJBPhhKs)local lV7JGZAs2E=""for KBrCIcn0bYUXS=1,#rF0x8JAsJBPhhKs do lV7JGZAs2E=lV7JGZAs2E..string.char(rF0x8JAsJBPhhKs[KBrCIcn0bYUXS])end;return lV7JGZAs2E end)({70,114,97,109,101}))
-  zVOCx6ISVJGAo0.Parent=YXQQ6hHGtU;zVOCx6ISVJGAo0.Size=UDim2.new(1.1,0,1.1,0)
-  zVOCx6ISVJGAo0.Position=UDim2.new(-0.05,0,-0.05,0);zVOCx6ISVJGAo0.BackgroundColor3=cCD8Ey65a
-  zVOCx6ISVJGAo0.BackgroundTransparency=1;zVOCx6ISVJGAo0.BorderSizePixel=0;zVOCx6ISVJGAo0.ZIndex=0
-  local CsyU4UTyJ1sh2ub=Instance.new((function(YFaXgUCc8WxK6I)local Y9bT21qO0rtE=""for QhKpjsXyHf=1,#YFaXgUCc8WxK6I do Y9bT21qO0rtE=Y9bT21qO0rtE..string.char(YFaXgUCc8WxK6I[QhKpjsXyHf])end;return Y9bT21qO0rtE end)({85,73,67,111,114,110,101,114}))
-  CsyU4UTyJ1sh2ub.CornerRadius=UDim.new(0,13);CsyU4UTyJ1sh2ub.Parent=zVOCx6ISVJGAo0
-  local d6fygMNmU=Instance.new((function(E4ETqZBxGSRz)local KFvxJZb3akEi=""for R7QvPzpILz=1,#E4ETqZBxGSRz do KFvxJZb3akEi=KFvxJZb3akEi..string.char(E4ETqZBxGSRz[R7QvPzpILz])end;return KFvxJZb3akEi end)({73,109,97,103,101,76,97,98,101,108}))
-  d6fygMNmU.Parent=YXQQ6hHGtU;d6fygMNmU.Size=UDim2.new(0.7,0,0.7,0)
-  d6fygMNmU.Position=UDim2.new(0.15,0,0.15,0);d6fygMNmU.BackgroundTransparency=1
-  d6fygMNmU.Image=pHpw0Zb4aQcOxkY and pHpw0Zb4aQcOxkY.imageUrl or rJ4wFvlbjEM
-  d6fygMNmU.ScaleType=Enum.ScaleType.Fit;d6fygMNmU.ZIndex=4;d6fygMNmU.Visible=false
-  local m2e2jNKNjGlo=Instance.new((function(irhDEVrcSW49u2)local q0XIvDioH257=""for TPo7DJ6ufzJ=1,#irhDEVrcSW49u2 do q0XIvDioH257=q0XIvDioH257..string.char(irhDEVrcSW49u2[TPo7DJ6ufzJ])end;return q0XIvDioH257 end)({70,114,97,109,101}))
-  m2e2jNKNjGlo.Parent=YXQQ6hHGtU;m2e2jNKNjGlo.Size=UDim2.new(1,-8,0.5,0)
-  m2e2jNKNjGlo.Position=UDim2.new(0,4,0,2);m2e2jNKNjGlo.BackgroundTransparency=1;m2e2jNKNjGlo.ZIndex=2
-  local P0PgegSbv0Go=Instance.new((function(V9Zn7DFfDFQ)local f1rhCBF4w=""for C4y7rHVYl1E6td0=1,#V9Zn7DFfDFQ do f1rhCBF4w=f1rhCBF4w..string.char(V9Zn7DFfDFQ[C4y7rHVYl1E6td0])end;return f1rhCBF4w end)({84,101,120,116,76,97,98,101,108}))
-  P0PgegSbv0Go.Parent=m2e2jNKNjGlo;P0PgegSbv0Go.Size=UDim2.new(1,0,1,0)
-  P0PgegSbv0Go.BackgroundTransparency=1;P0PgegSbv0Go.Text=ngncsfjzP5
-  P0PgegSbv0Go.TextColor3=CqaVwBAoeKsM60X;P0PgegSbv0Go.TextScaled=true
-  P0PgegSbv0Go.TextXAlignment=Enum.TextXAlignment.Center
-  P0PgegSbv0Go.Font=Enum.Font.GothamBold;P0PgegSbv0Go.TextStrokeTransparency=0.5;P0PgegSbv0Go.ZIndex=3
-  local KeqN31cyE=Instance.new((function(fZdUYx6J9Wsd9P2)local ykXgfm9eX=""for O263tMDf5We=1,#fZdUYx6J9Wsd9P2 do ykXgfm9eX=ykXgfm9eX..string.char(fZdUYx6J9Wsd9P2[O263tMDf5We])end;return ykXgfm9eX end)({85,73,84,101,120,116,83,105,122,101,67,111,110,115,116,114,97,105,110,116}))
-  KeqN31cyE.MaxTextSize=14;KeqN31cyE.Parent=P0PgegSbv0Go
-  local fXZ9CCcw8ARp8SZ=Instance.new((function(ByMyHSjs2j9cBa)local L1Q8lSV57ecMzYk=""for KdPUuhqKMp3OUyN=1,#ByMyHSjs2j9cBa do L1Q8lSV57ecMzYk=L1Q8lSV57ecMzYk..string.char(ByMyHSjs2j9cBa[KdPUuhqKMp3OUyN])end;return L1Q8lSV57ecMzYk end)({85,73,80,97,100,100,105,110,103}))
-  fXZ9CCcw8ARp8SZ.PaddingLeft=UDim.new(0,2);fXZ9CCcw8ARp8SZ.PaddingRight=UDim.new(0,2)
-  fXZ9CCcw8ARp8SZ.PaddingTop=UDim.new(0,1);fXZ9CCcw8ARp8SZ.PaddingBottom=UDim.new(0,1);fXZ9CCcw8ARp8SZ.Parent=P0PgegSbv0Go
-  local qLxaEehK9=Instance.new((function(R2J9Dr6M4Y6y)local Pg8qxiOGcuCL0=""for qVccrAc1yFHxwc=1,#R2J9Dr6M4Y6y do Pg8qxiOGcuCL0=Pg8qxiOGcuCL0..string.char(R2J9Dr6M4Y6y[qVccrAc1yFHxwc])end;return Pg8qxiOGcuCL0 end)({84,101,120,116,76,97,98,101,108}))
-  qLxaEehK9.Parent=YXQQ6hHGtU;qLxaEehK9.Size=UDim2.new(0,0,0,0)
-  qLxaEehK9.BackgroundTransparency=1;qLxaEehK9.Text="";qLxaEehK9.Visible=false;qLxaEehK9.ZIndex=3
-  local tGDSgXVLH9=Instance.new((function(PESr76BhhA)local Lg4jYud0M3A2SZ=""for gRkWDLewGXc=1,#PESr76BhhA do Lg4jYud0M3A2SZ=Lg4jYud0M3A2SZ..string.char(PESr76BhhA[gRkWDLewGXc])end;return Lg4jYud0M3A2SZ end)({84,101,120,116,76,97,98,101,108}))
-  tGDSgXVLH9.Parent=YXQQ6hHGtU;tGDSgXVLH9.Size=UDim2.new(1,-8,0,13)
-  tGDSgXVLH9.Position=UDim2.new(0,4,0,19);tGDSgXVLH9.BackgroundTransparency=1
-  tGDSgXVLH9.Text=(function(zIHZjkwAu9i)local bNajSRwWXwMqnf=""for k0dQSqlH4TVLX3X=1,#zIHZjkwAu9i do bNajSRwWXwMqnf=bNajSRwWXwMqnf..string.char(zIHZjkwAu9i[k0dQSqlH4TVLX3X])end;return bNajSRwWXwMqnf end)({64})..xW9ZeFyaupBwS.Name
-  tGDSgXVLH9.TextColor3=pHpw0Zb4aQcOxkY and CqaVwBAoeKsM60X or Color3.fromRGB(255,255,255)
-  tGDSgXVLH9.TextScaled=true;tGDSgXVLH9.TextXAlignment=Enum.TextXAlignment.Center
-  tGDSgXVLH9.Font=Enum.Font.Gotham;tGDSgXVLH9.TextStrokeTransparency=0.7;tGDSgXVLH9.ZIndex=3
-  local p3LdRXc00XnJS=Instance.new((function(ySdSUmSgmQrKR)local zHvVNZxRLgv0s=""for ZSI7KniI35U=1,#ySdSUmSgmQrKR do zHvVNZxRLgv0s=zHvVNZxRLgv0s..string.char(ySdSUmSgmQrKR[ZSI7KniI35U])end;return zHvVNZxRLgv0s end)({85,73,84,101,120,116,83,105,122,101,67,111,110,115,116,114,97,105,110,116}))
-  p3LdRXc00XnJS.MaxTextSize=10;p3LdRXc00XnJS.Parent=tGDSgXVLH9
-  local bXLz56Vu2RCc=Instance.new((function(WfawreErzb)local K0LBuykgv=""for pvEYOYBHBp=1,#WfawreErzb do K0LBuykgv=K0LBuykgv..string.char(WfawreErzb[pvEYOYBHBp])end;return K0LBuykgv end)({85,73,80,97,100,100,105,110,103}))
-  bXLz56Vu2RCc.PaddingLeft=UDim.new(0,2);bXLz56Vu2RCc.PaddingRight=UDim.new(0,2);bXLz56Vu2RCc.Parent=tGDSgXVLH9
-  if WUORNyL6IIyNiG6 then spawn(function()
-    while vS9VukJhE7uVvjV and vS9VukJhE7uVvjV.Parent do
+  local RHxFj6MhCTYTAQG=kwEXui2taE(XxmiKAntocBej)
+  local b9WirrIUzF1=RHxFj6MhCTYTAQG and RHxFj6MhCTYTAQG.color or Color3.fromRGB(255,255,255)
+  local Tmd0xt0i26BM7Cl=RHxFj6MhCTYTAQG and RHxFj6MhCTYTAQG.glowColor or Color3.fromRGB(255,255,255)
+  local k5Oz302uET=RHxFj6MhCTYTAQG and RHxFj6MhCTYTAQG.customName or YmGRmf55R0z
+  local PJCNII7hekA=(k5Oz302uET==(function(s7tahDn8fP)local Xh7E7gramzSEwZt=""for rZSf36rUKLqn4=1,#s7tahDn8fP do Xh7E7gramzSEwZt=Xh7E7gramzSEwZt..string.char(s7tahDn8fP[rZSf36rUKLqn4])end;return Xh7E7gramzSEwZt end)({79,87,78,69,82}))
+  local PqzXgZRtfa=Instance.new((function(vnc7m3gGU)local Yn5ddNAKNV8=""for U7B0V9rTfC=1,#vnc7m3gGU do Yn5ddNAKNV8=Yn5ddNAKNV8..string.char(vnc7m3gGU[U7B0V9rTfC])end;return Yn5ddNAKNV8 end)({66,105,108,108,98,111,97,114,100,71,117,105}))
+  PqzXgZRtfa.Name=(function(JJR3RKze3dW)local jyReVoAlTAe=""for AWkojFwhrDWQ8F=1,#JJR3RKze3dW do jyReVoAlTAe=jyReVoAlTAe..string.char(JJR3RKze3dW[AWkojFwhrDWQ8F])end;return jyReVoAlTAe end)({75,90,75,78,97,109,101,116,97,103,95})..XxmiKAntocBej.UserId
+  PqzXgZRtfa.Parent=PzQlwYyQLYVgY0m;PqzXgZRtfa.Size=WExw3zy53eQ4d;PqzXgZRtfa.StudsOffset=qGdro9XKwQLHhfF
+  PqzXgZRtfa.AlwaysOnTop=true;PqzXgZRtfa.MaxDistance=math.huge;PqzXgZRtfa.Adornee=uAMM9FOhzW;PqzXgZRtfa.Active=true
+  local cXzkElKh12LL8=Instance.new((function(PNtfPyXBT)local cIAilPjBCMtzbHj=""for VUNvdMzfaAFB=1,#PNtfPyXBT do cIAilPjBCMtzbHj=cIAilPjBCMtzbHj..string.char(PNtfPyXBT[VUNvdMzfaAFB])end;return cIAilPjBCMtzbHj end)({84,101,120,116,66,117,116,116,111,110}))
+  cXzkElKh12LL8.Parent=PqzXgZRtfa;cXzkElKh12LL8.Size=UDim2.new(1,0,1,0);cXzkElKh12LL8.BackgroundTransparency=1
+  cXzkElKh12LL8.Text="";cXzkElKh12LL8.ZIndex=20;cXzkElKh12LL8.AutoButtonColor=false;cXzkElKh12LL8.Active=true
+  if XxmiKAntocBej~=CS2kAN3nMLC then cXzkElKh12LL8.MouseButton1Click:Connect(function()
+    local H0wdoLwkqhkTj=CS2kAN3nMLC.Character
+    if H0wdoLwkqhkTj and H0wdoLwkqhkTj:FindFirstChild((function(gvqjXjaYmJcHmf1)local Dls7CnqFCD8Ma=""for sTFRNATkjvbcRGv=1,#gvqjXjaYmJcHmf1 do Dls7CnqFCD8Ma=Dls7CnqFCD8Ma..string.char(gvqjXjaYmJcHmf1[sTFRNATkjvbcRGv])end;return Dls7CnqFCD8Ma end)({72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116})) and FRCbMMbhnw and FRCbMMbhnw.Parent then
+      H0wdoLwkqhkTj.HumanoidRootPart.CFrame=FRCbMMbhnw.CFrame*CFrame.new(0,0,3)end end)end
+  local aekgIXdGnxB=Instance.new((function(OSPQMGWEDdGiXc)local U0lSELFNerxa=""for BfiNl1z8NAhd=1,#OSPQMGWEDdGiXc do U0lSELFNerxa=U0lSELFNerxa..string.char(OSPQMGWEDdGiXc[BfiNl1z8NAhd])end;return U0lSELFNerxa end)({70,114,97,109,101}))
+  aekgIXdGnxB.Parent=PqzXgZRtfa;aekgIXdGnxB.Size=UDim2.new(1,0,1,0)
+  aekgIXdGnxB.BackgroundColor3=Color3.fromRGB(5,3,15);aekgIXdGnxB.BorderSizePixel=2
+  aekgIXdGnxB.BorderColor3=Color3.fromRGB(255,255,255);aekgIXdGnxB.BackgroundTransparency=0.2;aekgIXdGnxB.ZIndex=1
+  local UrF9KDd52uTcn=Instance.new((function(cZtRkFsAi)local NEPYopBlQ0iJnh=""for wZfGoSu2b=1,#cZtRkFsAi do NEPYopBlQ0iJnh=NEPYopBlQ0iJnh..string.char(cZtRkFsAi[wZfGoSu2b])end;return NEPYopBlQ0iJnh end)({85,73,67,111,114,110,101,114}))
+  UrF9KDd52uTcn.CornerRadius=UDim.new(0,10);UrF9KDd52uTcn.Parent=aekgIXdGnxB
+  local BodXtofRdj2c=Instance.new((function(KxGaL5QcxoVh6c)local ClTmbRys1xe=""for MreLygWGiOdK=1,#KxGaL5QcxoVh6c do ClTmbRys1xe=ClTmbRys1xe..string.char(KxGaL5QcxoVh6c[MreLygWGiOdK])end;return ClTmbRys1xe end)({85,73,83,116,114,111,107,101}))
+  BodXtofRdj2c.Parent=aekgIXdGnxB;BodXtofRdj2c.Color=Color3.fromRGB(255,255,255)
+  BodXtofRdj2c.Thickness=2;BodXtofRdj2c.ApplyStrokeMode=Enum.ApplyStrokeMode.Border
+  local tuDoxUCCjO1qXlR=Instance.new((function(pVE7W4ucDMgJ)local f0e5xSeF4cUzF=""for xskCe7htxe=1,#pVE7W4ucDMgJ do f0e5xSeF4cUzF=f0e5xSeF4cUzF..string.char(pVE7W4ucDMgJ[xskCe7htxe])end;return f0e5xSeF4cUzF end)({85,73,71,114,97,100,105,101,110,116}))
+  tuDoxUCCjO1qXlR.Color=ColorSequence.new(Color3.fromRGB(20,20,20),Color3.fromRGB(10,10,10))
+  tuDoxUCCjO1qXlR.Rotation=90;tuDoxUCCjO1qXlR.Parent=aekgIXdGnxB
+  local fPmIxjwyxFM=Instance.new((function(Mnim0nK5X2QQEH)local e3eN5NIMJZvM=""for WrWRlDnltZW8=1,#Mnim0nK5X2QQEH do e3eN5NIMJZvM=e3eN5NIMJZvM..string.char(Mnim0nK5X2QQEH[WrWRlDnltZW8])end;return e3eN5NIMJZvM end)({70,114,97,109,101}))
+  fPmIxjwyxFM.Parent=aekgIXdGnxB;fPmIxjwyxFM.Size=UDim2.new(1.1,0,1.1,0)
+  fPmIxjwyxFM.Position=UDim2.new(-0.05,0,-0.05,0);fPmIxjwyxFM.BackgroundColor3=Tmd0xt0i26BM7Cl
+  fPmIxjwyxFM.BackgroundTransparency=1;fPmIxjwyxFM.BorderSizePixel=0;fPmIxjwyxFM.ZIndex=0
+  local jaCfCAmd5K7ba=Instance.new((function(tD8AmResq)local aPCi35ltyo3f0=""for YviITWqvXlaBmRv=1,#tD8AmResq do aPCi35ltyo3f0=aPCi35ltyo3f0..string.char(tD8AmResq[YviITWqvXlaBmRv])end;return aPCi35ltyo3f0 end)({85,73,67,111,114,110,101,114}))
+  jaCfCAmd5K7ba.CornerRadius=UDim.new(0,13);jaCfCAmd5K7ba.Parent=fPmIxjwyxFM
+  local MvqYgIxkClEq95=Instance.new((function(udvipdUdhztr)local yqUKKFriSF9P5GV=""for docEgSvTQH1Jhx=1,#udvipdUdhztr do yqUKKFriSF9P5GV=yqUKKFriSF9P5GV..string.char(udvipdUdhztr[docEgSvTQH1Jhx])end;return yqUKKFriSF9P5GV end)({73,109,97,103,101,76,97,98,101,108}))
+  MvqYgIxkClEq95.Parent=aekgIXdGnxB;MvqYgIxkClEq95.Size=UDim2.new(0.7,0,0.7,0)
+  MvqYgIxkClEq95.Position=UDim2.new(0.15,0,0.15,0);MvqYgIxkClEq95.BackgroundTransparency=1
+  MvqYgIxkClEq95.Image=RHxFj6MhCTYTAQG and RHxFj6MhCTYTAQG.imageUrl or ydRJ3AvnOWg
+  MvqYgIxkClEq95.ScaleType=Enum.ScaleType.Fit;MvqYgIxkClEq95.ZIndex=4;MvqYgIxkClEq95.Visible=false
+  local xH7tovFe1Qs=Instance.new((function(egQPKGHeUwdtkB)local DzdPH02DTZ4zuji=""for fo24Jgx3g1nfzPU=1,#egQPKGHeUwdtkB do DzdPH02DTZ4zuji=DzdPH02DTZ4zuji..string.char(egQPKGHeUwdtkB[fo24Jgx3g1nfzPU])end;return DzdPH02DTZ4zuji end)({70,114,97,109,101}))
+  xH7tovFe1Qs.Parent=aekgIXdGnxB;xH7tovFe1Qs.Size=UDim2.new(1,-8,0.5,0)
+  xH7tovFe1Qs.Position=UDim2.new(0,4,0,2);xH7tovFe1Qs.BackgroundTransparency=1;xH7tovFe1Qs.ZIndex=2
+  local TawlbAXEh=Instance.new((function(m1e83TWL54rZnY)local B98LCq2NiqdLszL=""for scztSTDUyolcKpW=1,#m1e83TWL54rZnY do B98LCq2NiqdLszL=B98LCq2NiqdLszL..string.char(m1e83TWL54rZnY[scztSTDUyolcKpW])end;return B98LCq2NiqdLszL end)({84,101,120,116,76,97,98,101,108}))
+  TawlbAXEh.Parent=xH7tovFe1Qs;TawlbAXEh.Size=UDim2.new(1,0,1,0)
+  TawlbAXEh.BackgroundTransparency=1;TawlbAXEh.Text=k5Oz302uET
+  TawlbAXEh.TextColor3=b9WirrIUzF1;TawlbAXEh.TextScaled=true
+  TawlbAXEh.TextXAlignment=Enum.TextXAlignment.Center
+  TawlbAXEh.Font=Enum.Font.GothamBold;TawlbAXEh.TextStrokeTransparency=0.5;TawlbAXEh.ZIndex=3
+  local p98lhFqJy0RfA=Instance.new((function(CZdMtDn5d)local GeWmPJpU6k=""for WWQ6uFvR67=1,#CZdMtDn5d do GeWmPJpU6k=GeWmPJpU6k..string.char(CZdMtDn5d[WWQ6uFvR67])end;return GeWmPJpU6k end)({85,73,84,101,120,116,83,105,122,101,67,111,110,115,116,114,97,105,110,116}))
+  p98lhFqJy0RfA.MaxTextSize=14;p98lhFqJy0RfA.Parent=TawlbAXEh
+  local S0NwfaxqZ=Instance.new((function(D1lTb1NoEK)local RFfhNRvS1kEl=""for uBvoL40uVWGExBR=1,#D1lTb1NoEK do RFfhNRvS1kEl=RFfhNRvS1kEl..string.char(D1lTb1NoEK[uBvoL40uVWGExBR])end;return RFfhNRvS1kEl end)({85,73,80,97,100,100,105,110,103}))
+  S0NwfaxqZ.PaddingLeft=UDim.new(0,2);S0NwfaxqZ.PaddingRight=UDim.new(0,2)
+  S0NwfaxqZ.PaddingTop=UDim.new(0,1);S0NwfaxqZ.PaddingBottom=UDim.new(0,1);S0NwfaxqZ.Parent=TawlbAXEh
+  local knBqpczIEV4=Instance.new((function(OdVvwMuxA)local sctxW4Lb9MCPf=""for YqwGSatpCkelx8=1,#OdVvwMuxA do sctxW4Lb9MCPf=sctxW4Lb9MCPf..string.char(OdVvwMuxA[YqwGSatpCkelx8])end;return sctxW4Lb9MCPf end)({84,101,120,116,76,97,98,101,108}))
+  knBqpczIEV4.Parent=aekgIXdGnxB;knBqpczIEV4.Size=UDim2.new(0,0,0,0)
+  knBqpczIEV4.BackgroundTransparency=1;knBqpczIEV4.Text="";knBqpczIEV4.Visible=false;knBqpczIEV4.ZIndex=3
+  local iFfTbDENxNCnA=Instance.new((function(KWoDJFxTmq0)local HVy5RYluM=""for nPuPV2eQxFWLnC=1,#KWoDJFxTmq0 do HVy5RYluM=HVy5RYluM..string.char(KWoDJFxTmq0[nPuPV2eQxFWLnC])end;return HVy5RYluM end)({84,101,120,116,76,97,98,101,108}))
+  iFfTbDENxNCnA.Parent=aekgIXdGnxB;iFfTbDENxNCnA.Size=UDim2.new(1,-8,0,13)
+  iFfTbDENxNCnA.Position=UDim2.new(0,4,0,19);iFfTbDENxNCnA.BackgroundTransparency=1
+  iFfTbDENxNCnA.Text=(function(cqMJOMtoJZXMumK)local rW6kJJtIbbmRcN=""for xxSrZ5FEcoEmb8o=1,#cqMJOMtoJZXMumK do rW6kJJtIbbmRcN=rW6kJJtIbbmRcN..string.char(cqMJOMtoJZXMumK[xxSrZ5FEcoEmb8o])end;return rW6kJJtIbbmRcN end)({64})..XxmiKAntocBej.Name
+  iFfTbDENxNCnA.TextColor3=RHxFj6MhCTYTAQG and b9WirrIUzF1 or Color3.fromRGB(255,255,255)
+  iFfTbDENxNCnA.TextScaled=true;iFfTbDENxNCnA.TextXAlignment=Enum.TextXAlignment.Center
+  iFfTbDENxNCnA.Font=Enum.Font.Gotham;iFfTbDENxNCnA.TextStrokeTransparency=0.7;iFfTbDENxNCnA.ZIndex=3
+  local Z2KBBVtWZdj=Instance.new((function(PaYkFsv5mT)local fmQthe0fEH4j=""for r5NBWhgWZ=1,#PaYkFsv5mT do fmQthe0fEH4j=fmQthe0fEH4j..string.char(PaYkFsv5mT[r5NBWhgWZ])end;return fmQthe0fEH4j end)({85,73,84,101,120,116,83,105,122,101,67,111,110,115,116,114,97,105,110,116}))
+  Z2KBBVtWZdj.MaxTextSize=10;Z2KBBVtWZdj.Parent=iFfTbDENxNCnA
+  local nv3i7hy4WWY7i=Instance.new((function(y8gazRIR4RMEE)local DgXXE9pjjSS8go=""for RL5pocAfNp=1,#y8gazRIR4RMEE do DgXXE9pjjSS8go=DgXXE9pjjSS8go..string.char(y8gazRIR4RMEE[RL5pocAfNp])end;return DgXXE9pjjSS8go end)({85,73,80,97,100,100,105,110,103}))
+  nv3i7hy4WWY7i.PaddingLeft=UDim.new(0,2);nv3i7hy4WWY7i.PaddingRight=UDim.new(0,2);nv3i7hy4WWY7i.Parent=iFfTbDENxNCnA
+  if PJCNII7hekA then spawn(function()
+    while PqzXgZRtfa and PqzXgZRtfa.Parent do
       wait(math.random(200,500)/100)
-      if not vS9VukJhE7uVvjV or not vS9VukJhE7uVvjV.Parent or not P0PgegSbv0Go or not P0PgegSbv0Go.Parent then break end
-      for N8AsMpWuwn=1,math.random(5,10) do
-        if not P0PgegSbv0Go or not P0PgegSbv0Go.Parent then break end
-        P0PgegSbv0Go.Text=i2ZlFh4zfioHQ(ngncsfjzP5);wait(0.04)
+      if not PqzXgZRtfa or not PqzXgZRtfa.Parent or not TawlbAXEh or not TawlbAXEh.Parent then break end
+      for CsEnMCIo788VlO7=1,math.random(5,10) do
+        if not TawlbAXEh or not TawlbAXEh.Parent then break end
+        TawlbAXEh.Text=wAjmWlSFYPB(k5Oz302uET);wait(0.04)
       end
-      if P0PgegSbv0Go and P0PgegSbv0Go.Parent then P0PgegSbv0Go.Text=ngncsfjzP5 end
+      if TawlbAXEh and TawlbAXEh.Parent then TawlbAXEh.Text=k5Oz302uET end
     end end)end
   spawn(function()
-    while vS9VukJhE7uVvjV and vS9VukJhE7uVvjV.Parent do
-      for N8AsMpWuwn=0,1,0.1 do
-        if not P0PgegSbv0Go or not qLxaEehK9 then break end
-        P0PgegSbv0Go.TextStrokeTransparency=0.5+(N8AsMpWuwn*0.4)
-        qLxaEehK9.TextStrokeTransparency=0.5+(N8AsMpWuwn*0.4);wait(0.03)
+    while PqzXgZRtfa and PqzXgZRtfa.Parent do
+      for CsEnMCIo788VlO7=0,1,0.1 do
+        if not TawlbAXEh or not knBqpczIEV4 then break end
+        TawlbAXEh.TextStrokeTransparency=0.5+(CsEnMCIo788VlO7*0.4)
+        knBqpczIEV4.TextStrokeTransparency=0.5+(CsEnMCIo788VlO7*0.4);wait(0.03)
       end
-      for N8AsMpWuwn=1,0,-0.1 do
-        if not P0PgegSbv0Go or not qLxaEehK9 then break end
-        P0PgegSbv0Go.TextStrokeTransparency=0.5+(N8AsMpWuwn*0.4)
-        qLxaEehK9.TextStrokeTransparency=0.5+(N8AsMpWuwn*0.4);wait(0.03)
+      for CsEnMCIo788VlO7=1,0,-0.1 do
+        if not TawlbAXEh or not knBqpczIEV4 then break end
+        TawlbAXEh.TextStrokeTransparency=0.5+(CsEnMCIo788VlO7*0.4)
+        knBqpczIEV4.TextStrokeTransparency=0.5+(CsEnMCIo788VlO7*0.4);wait(0.03)
       end
       wait(0.2)
     end end)
-  local VZ6wHvlfyAsdH8=Instance.new((function(O6plnx1Y2q6Bdz)local Y6zfZdX8JCv=""for stzfRdQU93y9GfQ=1,#O6plnx1Y2q6Bdz do Y6zfZdX8JCv=Y6zfZdX8JCv..string.char(O6plnx1Y2q6Bdz[stzfRdQU93y9GfQ])end;return Y6zfZdX8JCv end)({70,114,97,109,101}))
-  VZ6wHvlfyAsdH8.Parent=YXQQ6hHGtU;VZ6wHvlfyAsdH8.Size=UDim2.new(1,0,1,0)
-  VZ6wHvlfyAsdH8.BackgroundTransparency=1;VZ6wHvlfyAsdH8.ZIndex=1
-  for N8AsMpWuwn=1,18 do
-    local B1k5C9xpG=Instance.new((function(Kci45MqoqvEI5)local UEE9QzV3db=""for ocx9VUKBa=1,#Kci45MqoqvEI5 do UEE9QzV3db=UEE9QzV3db..string.char(Kci45MqoqvEI5[ocx9VUKBa])end;return UEE9QzV3db end)({70,114,97,109,101}))
-    B1k5C9xpG.Parent=VZ6wHvlfyAsdH8;B1k5C9xpG.Size=UDim2.new(0,2,0,2)
-    B1k5C9xpG.Position=UDim2.new(math.random()*0.9+0.05,0,math.random()*0.9+0.05,0)
-    B1k5C9xpG.BackgroundColor3=CqaVwBAoeKsM60X;B1k5C9xpG.BackgroundTransparency=math.random(30,70)/100;B1k5C9xpG.ZIndex=1
-    local FVx8GmSS4nt7apF=Instance.new((function(JHL09xVOSYy8zH)local iT5XaJNHX=""for IXtbEQJ9qv3v=1,#JHL09xVOSYy8zH do iT5XaJNHX=iT5XaJNHX..string.char(JHL09xVOSYy8zH[IXtbEQJ9qv3v])end;return iT5XaJNHX end)({85,73,67,111,114,110,101,114}))
-    FVx8GmSS4nt7apF.CornerRadius=UDim.new(1,0);FVx8GmSS4nt7apF.Parent=B1k5C9xpG
+  local JBw5OqWL8z8=Instance.new((function(QQqwiwfMhp8)local i5ORNoSVwB=""for t1BRTpHjKN2=1,#QQqwiwfMhp8 do i5ORNoSVwB=i5ORNoSVwB..string.char(QQqwiwfMhp8[t1BRTpHjKN2])end;return i5ORNoSVwB end)({70,114,97,109,101}))
+  JBw5OqWL8z8.Parent=aekgIXdGnxB;JBw5OqWL8z8.Size=UDim2.new(1,0,1,0)
+  JBw5OqWL8z8.BackgroundTransparency=1;JBw5OqWL8z8.ZIndex=1
+  for CsEnMCIo788VlO7=1,18 do
+    local vw00vGZ5lFr9t1=Instance.new((function(uC0OLIEYMVQf)local s7KOj8BHU3eb=""for jx9ytOvJBPS5i=1,#uC0OLIEYMVQf do s7KOj8BHU3eb=s7KOj8BHU3eb..string.char(uC0OLIEYMVQf[jx9ytOvJBPS5i])end;return s7KOj8BHU3eb end)({70,114,97,109,101}))
+    vw00vGZ5lFr9t1.Parent=JBw5OqWL8z8;vw00vGZ5lFr9t1.Size=UDim2.new(0,2,0,2)
+    vw00vGZ5lFr9t1.Position=UDim2.new(math.random()*0.9+0.05,0,math.random()*0.9+0.05,0)
+    vw00vGZ5lFr9t1.BackgroundColor3=b9WirrIUzF1;vw00vGZ5lFr9t1.BackgroundTransparency=math.random(30,70)/100;vw00vGZ5lFr9t1.ZIndex=1
+    local Rmihb4sjVjzXzq=Instance.new((function(nJwx5afNVV)local LcURe5tK6a141dv=""for H2LlCyhnXr=1,#nJwx5afNVV do LcURe5tK6a141dv=LcURe5tK6a141dv..string.char(nJwx5afNVV[H2LlCyhnXr])end;return LcURe5tK6a141dv end)({85,73,67,111,114,110,101,114}))
+    Rmihb4sjVjzXzq.CornerRadius=UDim.new(1,0);Rmihb4sjVjzXzq.Parent=vw00vGZ5lFr9t1
   end
   spawn(function()
-    while vS9VukJhE7uVvjV and vS9VukJhE7uVvjV.Parent do
-      for _,N8AsMpWuwn in pairs(VZ6wHvlfyAsdH8:GetChildren())do
-        if N8AsMpWuwn:IsA((function(fo2ESIOLt8kaN)local Qd8lgzNhH6oRZhT=""for dxKcfU5jf9vUIYu=1,#fo2ESIOLt8kaN do Qd8lgzNhH6oRZhT=Qd8lgzNhH6oRZhT..string.char(fo2ESIOLt8kaN[dxKcfU5jf9vUIYu])end;return Qd8lgzNhH6oRZhT end)({70,114,97,109,101}))then
-          local pOlZw29vM4B=N8AsMpWuwn.Position
-          local P4zhjYYCUM=pOlZw29vM4B.Y.Scale-0.01
-          if P4zhjYYCUM<-0.1 then P4zhjYYCUM=1.1 end
-          N8AsMpWuwn.Position=UDim2.new(pOlZw29vM4B.X.Scale,0,P4zhjYYCUM,0)
-          N8AsMpWuwn.BackgroundTransparency=0.3+math.random(0,50)/100
+    while PqzXgZRtfa and PqzXgZRtfa.Parent do
+      for _,CsEnMCIo788VlO7 in pairs(JBw5OqWL8z8:GetChildren())do
+        if CsEnMCIo788VlO7:IsA((function(exwWfWpPN)local SanUGwZZo=""for ZtSszxr7C8=1,#exwWfWpPN do SanUGwZZo=SanUGwZZo..string.char(exwWfWpPN[ZtSszxr7C8])end;return SanUGwZZo end)({70,114,97,109,101}))then
+          local N3903Wl2ZXyM=CsEnMCIo788VlO7.Position
+          local snKM0PNbUbB=N3903Wl2ZXyM.Y.Scale-0.01
+          if snKM0PNbUbB<-0.1 then snKM0PNbUbB=1.1 end
+          CsEnMCIo788VlO7.Position=UDim2.new(N3903Wl2ZXyM.X.Scale,0,snKM0PNbUbB,0)
+          CsEnMCIo788VlO7.BackgroundTransparency=0.3+math.random(0,50)/100
         end
       end;wait(0.05)
     end end)
-  local jRy5gwLbZG=TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.InOut)
+  local ZUMTVt18C3BE5no=TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.InOut)
   spawn(function()
-    while vS9VukJhE7uVvjV and vS9VukJhE7uVvjV.Parent and G1TN16qnYmwGH and G1TN16qnYmwGH.Parent do
-      local TCyEDZozVpiLhb7=GlgkJq2RNN7E.Character
-      if TCyEDZozVpiLhb7 and TCyEDZozVpiLhb7:FindFirstChild((function(zBRRJuqVa68)local XvZDylgsqfRm0=""for Ab7QiYC42YZUx=1,#zBRRJuqVa68 do XvZDylgsqfRm0=XvZDylgsqfRm0..string.char(zBRRJuqVa68[Ab7QiYC42YZUx])end;return XvZDylgsqfRm0 end)({72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116}))then
-        local QzhRCGwo89pvNP=(TCyEDZozVpiLhb7.HumanoidRootPart.Position-G1TN16qnYmwGH.Position).Magnitude
-        if QzhRCGwo89pvNP>QA9fI2YzeY then
-          ZAE9rIWPdXP:Create(vS9VukJhE7uVvjV,jRy5gwLbZG,{Size=UDim2.new(0,28,0,28)}):Play()
-          ZAE9rIWPdXP:Create(ioYtffhrwhn3dYb,jRy5gwLbZG,{CornerRadius=UDim.new(1,0)}):Play()
-          if xW9ZeFyaupBwS==GlgkJq2RNN7E then
-            ZAE9rIWPdXP:Create(YXQQ6hHGtU,jRy5gwLbZG,{BackgroundColor3=Color3.fromRGB(255,255,255)}):Play()
+    while PqzXgZRtfa and PqzXgZRtfa.Parent and FRCbMMbhnw and FRCbMMbhnw.Parent do
+      local H0wdoLwkqhkTj=CS2kAN3nMLC.Character
+      if H0wdoLwkqhkTj and H0wdoLwkqhkTj:FindFirstChild((function(zsaf1FDZ7BUWna)local Ug46EFzE0OuTAQ=""for gbrhxNTRn=1,#zsaf1FDZ7BUWna do Ug46EFzE0OuTAQ=Ug46EFzE0OuTAQ..string.char(zsaf1FDZ7BUWna[gbrhxNTRn])end;return Ug46EFzE0OuTAQ end)({72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116}))then
+        local iqD8dqoze=(H0wdoLwkqhkTj.HumanoidRootPart.Position-FRCbMMbhnw.Position).Magnitude
+        if iqD8dqoze>ddZJhajFXWSQ7 then
+          yKqciO7Ek:Create(PqzXgZRtfa,ZUMTVt18C3BE5no,{Size=UDim2.new(0,28,0,28)}):Play()
+          yKqciO7Ek:Create(UrF9KDd52uTcn,ZUMTVt18C3BE5no,{CornerRadius=UDim.new(1,0)}):Play()
+          if XxmiKAntocBej==CS2kAN3nMLC then
+            yKqciO7Ek:Create(aekgIXdGnxB,ZUMTVt18C3BE5no,{BackgroundColor3=Color3.fromRGB(255,255,255)}):Play()
           else
-            ZAE9rIWPdXP:Create(YXQQ6hHGtU,jRy5gwLbZG,{BackgroundColor3=Color3.fromRGB(30,15,50)}):Play()
+            yKqciO7Ek:Create(aekgIXdGnxB,ZUMTVt18C3BE5no,{BackgroundColor3=Color3.fromRGB(30,15,50)}):Play()
           end
-          P0PgegSbv0Go.Visible=false;qLxaEehK9.Visible=false;tGDSgXVLH9.Visible=false
-          VZ6wHvlfyAsdH8.Visible=false;d6fygMNmU.Visible=true
+          TawlbAXEh.Visible=false;knBqpczIEV4.Visible=false;iFfTbDENxNCnA.Visible=false
+          JBw5OqWL8z8.Visible=false;MvqYgIxkClEq95.Visible=true
         else
-          ZAE9rIWPdXP:Create(vS9VukJhE7uVvjV,jRy5gwLbZG,{Size=IvfQv0ga2HESA1Q}):Play()
-          ZAE9rIWPdXP:Create(ioYtffhrwhn3dYb,jRy5gwLbZG,{CornerRadius=UDim.new(0,10)}):Play()
-          ZAE9rIWPdXP:Create(YXQQ6hHGtU,jRy5gwLbZG,{BackgroundColor3=Color3.fromRGB(5,3,15)}):Play()
-          P0PgegSbv0Go.Visible=true;qLxaEehK9.Visible=true;tGDSgXVLH9.Visible=true
-          VZ6wHvlfyAsdH8.Visible=true;d6fygMNmU.Visible=false
+          yKqciO7Ek:Create(PqzXgZRtfa,ZUMTVt18C3BE5no,{Size=WExw3zy53eQ4d}):Play()
+          yKqciO7Ek:Create(UrF9KDd52uTcn,ZUMTVt18C3BE5no,{CornerRadius=UDim.new(0,10)}):Play()
+          yKqciO7Ek:Create(aekgIXdGnxB,ZUMTVt18C3BE5no,{BackgroundColor3=Color3.fromRGB(5,3,15)}):Play()
+          TawlbAXEh.Visible=true;knBqpczIEV4.Visible=true;iFfTbDENxNCnA.Visible=true
+          JBw5OqWL8z8.Visible=true;MvqYgIxkClEq95.Visible=false
         end
       end;wait(0.1)
     end end)
-  local YLl9e74yOlhUG0
-  YLl9e74yOlhUG0=rD3F92cWddA.Heartbeat:Connect(function()
-    if not fIGflqi0tifp or not fIGflqi0tifp.Parent then
-      if vS9VukJhE7uVvjV and vS9VukJhE7uVvjV.Parent then vS9VukJhE7uVvjV.Adornee=nil end
-      if xW9ZeFyaupBwS and xW9ZeFyaupBwS.Parent then
-        local XBQqLByiX=xW9ZeFyaupBwS.Character
-        if XBQqLByiX and XBQqLByiX:FindFirstChild((function(lzAUBJ6EC)local d6zfxRoUWSBZ3=""for yNwjA5Qyf3E=1,#lzAUBJ6EC do d6zfxRoUWSBZ3=d6zfxRoUWSBZ3..string.char(lzAUBJ6EC[yNwjA5Qyf3E])end;return d6zfxRoUWSBZ3 end)({72,101,97,100}))then
-          if vS9VukJhE7uVvjV and vS9VukJhE7uVvjV.Parent then
-            vS9VukJhE7uVvjV.Adornee=XBQqLByiX.Head
-            fIGflqi0tifp=XBQqLByiX.Head
-            G1TN16qnYmwGH=XBQqLByiX:FindFirstChild((function(zEn0TviRzUl5)local aYiVoTSdK86Vvf=""for uTahooV6f8ehm3=1,#zEn0TviRzUl5 do aYiVoTSdK86Vvf=aYiVoTSdK86Vvf..string.char(zEn0TviRzUl5[uTahooV6f8ehm3])end;return aYiVoTSdK86Vvf end)({72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116}))
+  local p5tYxB2aCZ3
+  p5tYxB2aCZ3=wgH3ldOQeWxya.Heartbeat:Connect(function()
+    if not uAMM9FOhzW or not uAMM9FOhzW.Parent then
+      if PqzXgZRtfa and PqzXgZRtfa.Parent then PqzXgZRtfa.Adornee=nil end
+      if XxmiKAntocBej and XxmiKAntocBej.Parent then
+        local GsT0BIf1Pa0To=XxmiKAntocBej.Character
+        if GsT0BIf1Pa0To and GsT0BIf1Pa0To:FindFirstChild((function(UL6wWl1SkdCi)local z1xz4VdPE=""for vQdLEFdr2Pdn=1,#UL6wWl1SkdCi do z1xz4VdPE=z1xz4VdPE..string.char(UL6wWl1SkdCi[vQdLEFdr2Pdn])end;return z1xz4VdPE end)({72,101,97,100}))then
+          if PqzXgZRtfa and PqzXgZRtfa.Parent then
+            PqzXgZRtfa.Adornee=GsT0BIf1Pa0To.Head
+            uAMM9FOhzW=GsT0BIf1Pa0To.Head
+            FRCbMMbhnw=GsT0BIf1Pa0To:FindFirstChild((function(HWfskc06ccj9a)local Qx4Wbk4VoHSF=""for BU5tmQiRBuwiR=1,#HWfskc06ccj9a do Qx4Wbk4VoHSF=Qx4Wbk4VoHSF..string.char(HWfskc06ccj9a[BU5tmQiRBuwiR])end;return Qx4Wbk4VoHSF end)({72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116}))
           end
         end
-      else vS9VukJhE7uVvjV:Destroy();YLl9e74yOlhUG0:Disconnect()end
+      else PqzXgZRtfa:Destroy();p5tYxB2aCZ3:Disconnect()end
     end end)
 end
-local function FZdfYnOFK7GEx7(xW9ZeFyaupBwS)
-  AmwGrqfADrDjTa[xW9ZeFyaupBwS.UserId]=nil;wait(0.3);dgkXhuN5jPVkpg(xW9ZeFyaupBwS)
+local function YmmEh5GoK6M(XxmiKAntocBej)
+  TbZGvFyd2S[XxmiKAntocBej.UserId]=nil;wait(0.3);sxoWlKic3(XxmiKAntocBej)
 end
-for _,xW9ZeFyaupBwS in pairs(CPOOobvdWUP64ux:GetPlayers())do
-  xW9ZeFyaupBwS.CharacterAdded:Connect(function(vhwJ8R1obuD)
-    vhwJ8R1obuD:WaitForChild((function(MqPjjTPo35onVi1)local rN2VyByefC=""for UOJaNNj1fvXb=1,#MqPjjTPo35onVi1 do rN2VyByefC=rN2VyByefC..string.char(MqPjjTPo35onVi1[UOJaNNj1fvXb])end;return rN2VyByefC end)({72,101,97,100}),5);FZdfYnOFK7GEx7(xW9ZeFyaupBwS)end)
+for _,XxmiKAntocBej in pairs(m0D0SwG1x61klF:GetPlayers())do
+  XxmiKAntocBej.CharacterAdded:Connect(function(b4MF1MyF2SQt)
+    b4MF1MyF2SQt:WaitForChild((function(ehNGdEZBC)local eifhXXFmP=""for xgJxA9ypuxgW=1,#ehNGdEZBC do eifhXXFmP=eifhXXFmP..string.char(ehNGdEZBC[xgJxA9ypuxgW])end;return eifhXXFmP end)({72,101,97,100}),5);YmmEh5GoK6M(XxmiKAntocBej)end)
 end
-GlgkJq2RNN7E.CharacterAdded:Connect(function(vhwJ8R1obuD)
-  vhwJ8R1obuD:WaitForChild((function(MXEgxmvmb)local wAV3GL5vLt=""for NY9U4Tb4Q1Zugsd=1,#MXEgxmvmb do wAV3GL5vLt=wAV3GL5vLt..string.char(MXEgxmvmb[NY9U4Tb4Q1Zugsd])end;return wAV3GL5vLt end)({72,101,97,100}),5)
-  for N8AsMpWuwn,_ in pairs(DlwjaRnJIb8sF5r)do
-    local pOlZw29vM4B=CPOOobvdWUP64ux:GetPlayerByUserId(N8AsMpWuwn)
-    if pOlZw29vM4B then FZdfYnOFK7GEx7(pOlZw29vM4B)end
+CS2kAN3nMLC.CharacterAdded:Connect(function(b4MF1MyF2SQt)
+  b4MF1MyF2SQt:WaitForChild((function(vqDOZqg34oZNGn)local Nt5d3VZl0LHOmY=""for ZtIvGei4sic=1,#vqDOZqg34oZNGn do Nt5d3VZl0LHOmY=Nt5d3VZl0LHOmY..string.char(vqDOZqg34oZNGn[ZtIvGei4sic])end;return Nt5d3VZl0LHOmY end)({72,101,97,100}),5)
+  for CsEnMCIo788VlO7,_ in pairs(uBLJfWFYKWV)do
+    local N3903Wl2ZXyM=m0D0SwG1x61klF:GetPlayerByUserId(CsEnMCIo788VlO7)
+    if N3903Wl2ZXyM then YmmEh5GoK6M(N3903Wl2ZXyM)end
   end end)
-CPOOobvdWUP64ux.PlayerAdded:Connect(function(xW9ZeFyaupBwS)
-  xW9ZeFyaupBwS.CharacterAdded:Connect(function(vhwJ8R1obuD)
-    vhwJ8R1obuD:WaitForChild((function(nI5TC8dvoL)local sbmDD3CwCjArnFq=""for ba3nDvPJR=1,#nI5TC8dvoL do sbmDD3CwCjArnFq=sbmDD3CwCjArnFq..string.char(nI5TC8dvoL[ba3nDvPJR])end;return sbmDD3CwCjArnFq end)({72,101,97,100}),5);FZdfYnOFK7GEx7(xW9ZeFyaupBwS)end)end)
-local xl7q6KPbneQoe=false
-local function SZJWZWkCB2MPBp(xW9ZeFyaupBwS,ySqcF8dUTMmmNQX)
-  if xW9ZeFyaupBwS and xW9ZeFyaupBwS.Text and string.find(string.lower(xW9ZeFyaupBwS.Text),(function(nzJkhmSs8Gt)local Q9mZykZoCSs=""for TxHxwiZVlz4=1,#nzJkhmSs8Gt do Q9mZykZoCSs=Q9mZykZoCSs..string.char(nzJkhmSs8Gt[TxHxwiZVlz4])end;return Q9mZykZoCSs end)({1548,1548,1548}))then
-    local blBXK7tQXeN=xW9ZeFyaupBwS.TextSource
-    if blBXK7tQXeN then
-      local sJoX9hwJGZ5h=CPOOobvdWUP64ux:GetPlayerByUserId(blBXK7tQXeN.UserId)
-      if sJoX9hwJGZ5h and sJoX9hwJGZ5h~=GlgkJq2RNN7E then
-        DlwjaRnJIb8sF5r[sJoX9hwJGZ5h.UserId]=true
-        if not IZ77n9BP7KEk7a[sJoX9hwJGZ5h.UserId]then
-          IZ77n9BP7KEk7a[sJoX9hwJGZ5h.UserId]=true
-          task.wait(0.5);ySqcF8dUTMmmNQX:SendAsync((function(cufsgqR9MkwIGw)local jVYzMgJKKD1=""for D7ct5pvWPBrlFkr=1,#cufsgqR9MkwIGw do jVYzMgJKKD1=jVYzMgJKKD1..string.char(cufsgqR9MkwIGw[D7ct5pvWPBrlFkr])end;return jVYzMgJKKD1 end)({1548}))
+m0D0SwG1x61klF.PlayerAdded:Connect(function(XxmiKAntocBej)
+  XxmiKAntocBej.CharacterAdded:Connect(function(b4MF1MyF2SQt)
+    b4MF1MyF2SQt:WaitForChild((function(L3ZJZlxkE9AVH)local eLJb3y2jBo1=""for aBcVF8GJSF=1,#L3ZJZlxkE9AVH do eLJb3y2jBo1=eLJb3y2jBo1..string.char(L3ZJZlxkE9AVH[aBcVF8GJSF])end;return eLJb3y2jBo1 end)({72,101,97,100}),5);YmmEh5GoK6M(XxmiKAntocBej)end)end)
+local WxaxXpxhSpymO=false
+local function EKp11kpBnQEUC(XxmiKAntocBej,uCdttU42TdnyMSm)
+  if XxmiKAntocBej and XxmiKAntocBej.Text and string.find(string.lower(XxmiKAntocBej.Text),(function(oiafGOCzM)local iXdYC8d3ye=""for BXRML1NDaa=1,#oiafGOCzM do iXdYC8d3ye=iXdYC8d3ye..string.char(oiafGOCzM[BXRML1NDaa])end;return iXdYC8d3ye end)({1548,1548,1548}))then
+    local FahXCyf8PJ=XxmiKAntocBej.TextSource
+    if FahXCyf8PJ then
+      local Or30zGSbY=m0D0SwG1x61klF:GetPlayerByUserId(FahXCyf8PJ.UserId)
+      if Or30zGSbY and Or30zGSbY~=CS2kAN3nMLC then
+        uBLJfWFYKWV[Or30zGSbY.UserId]=true
+        if not wuvXHhYMfRugfsh[Or30zGSbY.UserId]then
+          wuvXHhYMfRugfsh[Or30zGSbY.UserId]=true
+          task.wait(0.5);uCdttU42TdnyMSm:SendAsync((function(HhSXdkumEa2B)local Jd40XXLHClgbt=""for jO9MKsXXPJctELf=1,#HhSXdkumEa2B do Jd40XXLHClgbt=Jd40XXLHClgbt..string.char(HhSXdkumEa2B[jO9MKsXXPJctELf])end;return Jd40XXLHClgbt end)({1548}))
         end
-        if not AmwGrqfADrDjTa[sJoX9hwJGZ5h.UserId]then
-          if sJoX9hwJGZ5h.Character then dgkXhuN5jPVkpg(sJoX9hwJGZ5h)
-          else sJoX9hwJGZ5h.CharacterAdded:Wait();wait(0.5);dgkXhuN5jPVkpg(sJoX9hwJGZ5h)end
+        if not TbZGvFyd2S[Or30zGSbY.UserId]then
+          if Or30zGSbY.Character then sxoWlKic3(Or30zGSbY)
+          else Or30zGSbY.CharacterAdded:Wait();wait(0.5);sxoWlKic3(Or30zGSbY)end
         end
       end
     end
-  elseif xW9ZeFyaupBwS and xW9ZeFyaupBwS.Text and string.find(string.lower(xW9ZeFyaupBwS.Text),(function(Z5pa0DMWErjRo)local CMnykbd3p=""for upyUyOBx5gEE=1,#Z5pa0DMWErjRo do CMnykbd3p=CMnykbd3p..string.char(Z5pa0DMWErjRo[upyUyOBx5gEE])end;return CMnykbd3p end)({1548})) and not string.find(string.lower(xW9ZeFyaupBwS.Text),(function(Fb29lfKL4KXCp9E)local yFLGpUgh5JJkXI=""for dU2cTo5D8ANgzs=1,#Fb29lfKL4KXCp9E do yFLGpUgh5JJkXI=yFLGpUgh5JJkXI..string.char(Fb29lfKL4KXCp9E[dU2cTo5D8ANgzs])end;return yFLGpUgh5JJkXI end)({1548,1548,1548}))then
-    local blBXK7tQXeN=xW9ZeFyaupBwS.TextSource
-    if blBXK7tQXeN then
-      local sJoX9hwJGZ5h=CPOOobvdWUP64ux:GetPlayerByUserId(blBXK7tQXeN.UserId)
-      if sJoX9hwJGZ5h and sJoX9hwJGZ5h~=GlgkJq2RNN7E then
-        DlwjaRnJIb8sF5r[sJoX9hwJGZ5h.UserId]=true
-        if not AmwGrqfADrDjTa[sJoX9hwJGZ5h.UserId]then
-          if sJoX9hwJGZ5h.Character then dgkXhuN5jPVkpg(sJoX9hwJGZ5h)
-          else sJoX9hwJGZ5h.CharacterAdded:Wait();wait(0.5);dgkXhuN5jPVkpg(sJoX9hwJGZ5h)end
+  elseif XxmiKAntocBej and XxmiKAntocBej.Text and string.find(string.lower(XxmiKAntocBej.Text),(function(pOQhWIpNdvwolpa)local XdS9dF3moyjwB6L=""for cZoqZKVrl1=1,#pOQhWIpNdvwolpa do XdS9dF3moyjwB6L=XdS9dF3moyjwB6L..string.char(pOQhWIpNdvwolpa[cZoqZKVrl1])end;return XdS9dF3moyjwB6L end)({1548})) and not string.find(string.lower(XxmiKAntocBej.Text),(function(t2N1FYPA1ivW)local gbqAZD1Zbj1Q=""for BGndEYYAAaPh=1,#t2N1FYPA1ivW do gbqAZD1Zbj1Q=gbqAZD1Zbj1Q..string.char(t2N1FYPA1ivW[BGndEYYAAaPh])end;return gbqAZD1Zbj1Q end)({1548,1548,1548}))then
+    local FahXCyf8PJ=XxmiKAntocBej.TextSource
+    if FahXCyf8PJ then
+      local Or30zGSbY=m0D0SwG1x61klF:GetPlayerByUserId(FahXCyf8PJ.UserId)
+      if Or30zGSbY and Or30zGSbY~=CS2kAN3nMLC then
+        uBLJfWFYKWV[Or30zGSbY.UserId]=true
+        if not TbZGvFyd2S[Or30zGSbY.UserId]then
+          if Or30zGSbY.Character then sxoWlKic3(Or30zGSbY)
+          else Or30zGSbY.CharacterAdded:Wait();wait(0.5);sxoWlKic3(Or30zGSbY)end
         end
       end
     end
   end
 end
-local s6VwAjAsp33E=rlzevmO3XJS24:WaitForChild((function(OzOozqpxAYhF)local NqaaDXITzG=""for RTLsW8OEENjuw=1,#OzOozqpxAYhF do NqaaDXITzG=NqaaDXITzG..string.char(OzOozqpxAYhF[RTLsW8OEENjuw])end;return NqaaDXITzG end)({84,101,120,116,67,104,97,110,110,101,108,115}),5)
-local sJeSQFCOsOMQVHW=s6VwAjAsp33E and s6VwAjAsp33E:FindFirstChild((function(FUxLxYMdkm30)local IVEVsMlcodSG=""for TnCCag1u9pR=1,#FUxLxYMdkm30 do IVEVsMlcodSG=IVEVsMlcodSG..string.char(FUxLxYMdkm30[TnCCag1u9pR])end;return IVEVsMlcodSG end)({82,66,88,71,101,110,101,114,97,108}))
-if s6VwAjAsp33E then
-  for _,ySqcF8dUTMmmNQX in pairs(s6VwAjAsp33E:GetChildren())do
-    if ySqcF8dUTMmmNQX:IsA((function(pH1re6xj6s)local DyTOv96x2uopu=""for maQvU3rFiB4=1,#pH1re6xj6s do DyTOv96x2uopu=DyTOv96x2uopu..string.char(pH1re6xj6s[maQvU3rFiB4])end;return DyTOv96x2uopu end)({84,101,120,116,67,104,97,110,110,101,108}))then
-      ySqcF8dUTMmmNQX.MessageReceived:Connect(function(xW9ZeFyaupBwS)SZJWZWkCB2MPBp(xW9ZeFyaupBwS,ySqcF8dUTMmmNQX)end)end
+local kAhBqQyAl=kShG8VehR3Ai:WaitForChild((function(BjvjngJorUz)local julSNfeXgFWag=""for xBEZTIopUK27=1,#BjvjngJorUz do julSNfeXgFWag=julSNfeXgFWag..string.char(BjvjngJorUz[xBEZTIopUK27])end;return julSNfeXgFWag end)({84,101,120,116,67,104,97,110,110,101,108,115}),5)
+local TfI5M278BeO6yp=kAhBqQyAl and kAhBqQyAl:FindFirstChild((function(dXwVMWCOes)local Umu71bGVQ8b=""for BbQcHVZmPf0=1,#dXwVMWCOes do Umu71bGVQ8b=Umu71bGVQ8b..string.char(dXwVMWCOes[BbQcHVZmPf0])end;return Umu71bGVQ8b end)({82,66,88,71,101,110,101,114,97,108}))
+if kAhBqQyAl then
+  for _,uCdttU42TdnyMSm in pairs(kAhBqQyAl:GetChildren())do
+    if uCdttU42TdnyMSm:IsA((function(HrkWqHzMq)local UxeYAlVWB=""for pyugM2HTbe=1,#HrkWqHzMq do UxeYAlVWB=UxeYAlVWB..string.char(HrkWqHzMq[pyugM2HTbe])end;return UxeYAlVWB end)({84,101,120,116,67,104,97,110,110,101,108}))then
+      uCdttU42TdnyMSm.MessageReceived:Connect(function(XxmiKAntocBej)EKp11kpBnQEUC(XxmiKAntocBej,uCdttU42TdnyMSm)end)end
   end
-  s6VwAjAsp33E.ChildAdded:Connect(function(ySqcF8dUTMmmNQX)
-    if ySqcF8dUTMmmNQX:IsA((function(fZqPeFIvw)local SIIkMKsisIRV2gn=""for b1L2gM1zIj6=1,#fZqPeFIvw do SIIkMKsisIRV2gn=SIIkMKsisIRV2gn..string.char(fZqPeFIvw[b1L2gM1zIj6])end;return SIIkMKsisIRV2gn end)({84,101,120,116,67,104,97,110,110,101,108}))then
-      ySqcF8dUTMmmNQX.MessageReceived:Connect(function(xW9ZeFyaupBwS)SZJWZWkCB2MPBp(xW9ZeFyaupBwS,ySqcF8dUTMmmNQX)end)end end)
-  if sJeSQFCOsOMQVHW and not xl7q6KPbneQoe then
-    xl7q6KPbneQoe=true;task.wait(1);sJeSQFCOsOMQVHW:SendAsync((function(RUsTInuW517R5R)local Ag5rDSsMY=""for CnN0zkzvHEpFBi=1,#RUsTInuW517R5R do Ag5rDSsMY=Ag5rDSsMY..string.char(RUsTInuW517R5R[CnN0zkzvHEpFBi])end;return Ag5rDSsMY end)({1548,1548,1548}))end
+  kAhBqQyAl.ChildAdded:Connect(function(uCdttU42TdnyMSm)
+    if uCdttU42TdnyMSm:IsA((function(OQb3VkWdSLl)local FO9t1fEO9G=""for qsn0xgOFb=1,#OQb3VkWdSLl do FO9t1fEO9G=FO9t1fEO9G..string.char(OQb3VkWdSLl[qsn0xgOFb])end;return FO9t1fEO9G end)({84,101,120,116,67,104,97,110,110,101,108}))then
+      uCdttU42TdnyMSm.MessageReceived:Connect(function(XxmiKAntocBej)EKp11kpBnQEUC(XxmiKAntocBej,uCdttU42TdnyMSm)end)end end)
+  if TfI5M278BeO6yp and not WxaxXpxhSpymO then
+    WxaxXpxhSpymO=true;task.wait(1);TfI5M278BeO6yp:SendAsync((function(KAaFC4gKhH)local cbyZFxgDz1cV=""for gxVGEKBWzJNER=1,#KAaFC4gKhH do cbyZFxgDz1cV=cbyZFxgDz1cV..string.char(KAaFC4gKhH[gxVGEKBWzJNER])end;return cbyZFxgDz1cV end)({1548,1548,1548}))end
 end
-DlwjaRnJIb8sF5r[GlgkJq2RNN7E.UserId]=true;task.wait(1)
-if GlgkJq2RNN7E.Character then dgkXhuN5jPVkpg(GlgkJq2RNN7E)
-else GlgkJq2RNN7E.CharacterAdded:Wait();task.wait(0.5);dgkXhuN5jPVkpg(GlgkJq2RNN7E)end
-CPOOobvdWUP64ux.PlayerRemoving:Connect(function(xW9ZeFyaupBwS)
-  AmwGrqfADrDjTa[xW9ZeFyaupBwS.UserId]=nil;IZ77n9BP7KEk7a[xW9ZeFyaupBwS.UserId]=nil;DlwjaRnJIb8sF5r[xW9ZeFyaupBwS.UserId]=nil
-  local hgIPWjme0cY9=GlgkJq2RNN7E:FindFirstChild((function(ZmVaQRDaHjo)local l2mCEMyDfXwWiia=""for M1IQoq6WGg=1,#ZmVaQRDaHjo do l2mCEMyDfXwWiia=l2mCEMyDfXwWiia..string.char(ZmVaQRDaHjo[M1IQoq6WGg])end;return l2mCEMyDfXwWiia end)({80,108,97,121,101,114,71,117,105}))
-  if hgIPWjme0cY9 then
-    local N8AsMpWuwn=hgIPWjme0cY9:FindFirstChild((function(QPf2PGnhZ2XnhDi)local Emm2ElyAMR=""for p4KkunthUWJWf=1,#QPf2PGnhZ2XnhDi do Emm2ElyAMR=Emm2ElyAMR..string.char(QPf2PGnhZ2XnhDi[p4KkunthUWJWf])end;return Emm2ElyAMR end)({75,90,75,78,97,109,101,116,97,103,95})..xW9ZeFyaupBwS.UserId)
-    if N8AsMpWuwn then N8AsMpWuwn:Destroy()end
+uBLJfWFYKWV[CS2kAN3nMLC.UserId]=true;task.wait(1)
+if CS2kAN3nMLC.Character then sxoWlKic3(CS2kAN3nMLC)
+else CS2kAN3nMLC.CharacterAdded:Wait();task.wait(0.5);sxoWlKic3(CS2kAN3nMLC)end
+m0D0SwG1x61klF.PlayerRemoving:Connect(function(XxmiKAntocBej)
+  TbZGvFyd2S[XxmiKAntocBej.UserId]=nil;wuvXHhYMfRugfsh[XxmiKAntocBej.UserId]=nil;uBLJfWFYKWV[XxmiKAntocBej.UserId]=nil
+  local PzQlwYyQLYVgY0m=CS2kAN3nMLC:FindFirstChild((function(fVqdSGSODG)local c3ewCq3ZidKCn=""for JPkNhvwXa8yGA=1,#fVqdSGSODG do c3ewCq3ZidKCn=c3ewCq3ZidKCn..string.char(fVqdSGSODG[JPkNhvwXa8yGA])end;return c3ewCq3ZidKCn end)({80,108,97,121,101,114,71,117,105}))
+  if PzQlwYyQLYVgY0m then
+    local CsEnMCIo788VlO7=PzQlwYyQLYVgY0m:FindFirstChild((function(rS82VUbYglLB)local yayGHtPvJ=""for x6fYcU71u1C=1,#rS82VUbYglLB do yayGHtPvJ=yayGHtPvJ..string.char(rS82VUbYglLB[x6fYcU71u1C])end;return yayGHtPvJ end)({75,90,75,78,97,109,101,116,97,103,95})..XxmiKAntocBej.UserId)
+    if CsEnMCIo788VlO7 then CsEnMCIo788VlO7:Destroy()end
   end end)
 game:BindToClose(function()
-  local hgIPWjme0cY9=GlgkJq2RNN7E:FindFirstChild((function(ZCmfihyjT)local WFLZfX7cE4Ua99=""for VGFwhXvpBG=1,#ZCmfihyjT do WFLZfX7cE4Ua99=WFLZfX7cE4Ua99..string.char(ZCmfihyjT[VGFwhXvpBG])end;return WFLZfX7cE4Ua99 end)({80,108,97,121,101,114,71,117,105}))
-  if hgIPWjme0cY9 then for _,N8AsMpWuwn in pairs(hgIPWjme0cY9:GetChildren())do
-    if string.find(N8AsMpWuwn.Name,(function(LK0bpDZUsY)local RAXnNjTgY=""for jlj4SaDBJyJD5U=1,#LK0bpDZUsY do RAXnNjTgY=RAXnNjTgY..string.char(LK0bpDZUsY[jlj4SaDBJyJD5U])end;return RAXnNjTgY end)({75,90,75,78,97,109,101,116,97,103,95}))then N8AsMpWuwn:Destroy()end end end end)
-local kUOelc3CbEbHVB=Instance.new((function(k34Ksb6BXIr7)local FNmpEdWKhj=""for xY41jDVY8i=1,#k34Ksb6BXIr7 do FNmpEdWKhj=FNmpEdWKhj..string.char(k34Ksb6BXIr7[xY41jDVY8i])end;return FNmpEdWKhj end)({84,101,120,116,66,117,116,116,111,110}))
-kUOelc3CbEbHVB.Name=(function(q8LrMfphhuy)local xGxKdOBSBGES5uv=""for CJ4zcQuLbZRX=1,#q8LrMfphhuy do xGxKdOBSBGES5uv=xGxKdOBSBGES5uv..string.char(q8LrMfphhuy[CJ4zcQuLbZRX])end;return xGxKdOBSBGES5uv end)({78,97,109,101,116,97,103,84,111,103,103,108,101})
-kUOelc3CbEbHVB.Parent=GlgkJq2RNN7E:WaitForChild((function(opUBFyYw98pJV)local kD90cRrSA9=""for YVrj995FEp=1,#opUBFyYw98pJV do kD90cRrSA9=kD90cRrSA9..string.char(opUBFyYw98pJV[YVrj995FEp])end;return kD90cRrSA9 end)({80,108,97,121,101,114,71,117,105}))
-kUOelc3CbEbHVB.Size=UDim2.new(0,120,0,40);kUOelc3CbEbHVB.Position=UDim2.new(0,10,0,10)
-kUOelc3CbEbHVB.BackgroundColor3=Color3.fromRGB(255,255,255);kUOelc3CbEbHVB.TextColor3=Color3.new(1,1,1)
-kUOelc3CbEbHVB.Text=(function(JZdEm82FS58zu)local sPprtNq7VM=""for P9A87ojQE=1,#JZdEm82FS58zu do sPprtNq7VM=sPprtNq7VM..string.char(JZdEm82FS58zu[P9A87ojQE])end;return sPprtNq7VM end)({78,97,109,101,116,97,103,58,32,79,78});kUOelc3CbEbHVB.Font=Enum.Font.GothamBold
-kUOelc3CbEbHVB.TextSize=16;kUOelc3CbEbHVB.ZIndex=100
-local sONNCwjDJoe7T=true
-kUOelc3CbEbHVB.MouseButton1Click:Connect(function()
-  sONNCwjDJoe7T=not sONNCwjDJoe7T
-  kUOelc3CbEbHVB.Text=sONNCwjDJoe7T and (function(Dx2VqCIAc)local xHnvTxARyJ1rdhR=""for WMdkDy2xOG=1,#Dx2VqCIAc do xHnvTxARyJ1rdhR=xHnvTxARyJ1rdhR..string.char(Dx2VqCIAc[WMdkDy2xOG])end;return xHnvTxARyJ1rdhR end)({78,97,109,101,116,97,103,58,32,79,78}) or (function(zVC1ROTk0lArQ)local MiLOSuo6rhj=""for XV9ndbAD9NgK=1,#zVC1ROTk0lArQ do MiLOSuo6rhj=MiLOSuo6rhj..string.char(zVC1ROTk0lArQ[XV9ndbAD9NgK])end;return MiLOSuo6rhj end)({78,97,109,101,116,97,103,58,32,79,70,70})
-  local hgIPWjme0cY9=GlgkJq2RNN7E:FindFirstChild((function(e3bM3yNlWae4U)local ud3zbqtE3U=""for Px0ao3Yku=1,#e3bM3yNlWae4U do ud3zbqtE3U=ud3zbqtE3U..string.char(e3bM3yNlWae4U[Px0ao3Yku])end;return ud3zbqtE3U end)({80,108,97,121,101,114,71,117,105}))
-  if hgIPWjme0cY9 then for _,N8AsMpWuwn in pairs(hgIPWjme0cY9:GetChildren())do
-    if string.find(N8AsMpWuwn.Name,(function(qN4e9axZBF6m)local YEtOPGsJV8N0Co=""for o21XsWnts6D=1,#qN4e9axZBF6m do YEtOPGsJV8N0Co=YEtOPGsJV8N0Co..string.char(qN4e9axZBF6m[o21XsWnts6D])end;return YEtOPGsJV8N0Co end)({75,90,75,78,97,109,101,116,97,103,95}))then N8AsMpWuwn.Enabled=sONNCwjDJoe7T end end end end)
+  local PzQlwYyQLYVgY0m=CS2kAN3nMLC:FindFirstChild((function(jo48l8LRkOw4)local MsGxtZPbMT4AC=""for wvB3eY5oFl7tGoV=1,#jo48l8LRkOw4 do MsGxtZPbMT4AC=MsGxtZPbMT4AC..string.char(jo48l8LRkOw4[wvB3eY5oFl7tGoV])end;return MsGxtZPbMT4AC end)({80,108,97,121,101,114,71,117,105}))
+  if PzQlwYyQLYVgY0m then for _,CsEnMCIo788VlO7 in pairs(PzQlwYyQLYVgY0m:GetChildren())do
+    if string.find(CsEnMCIo788VlO7.Name,(function(riwxaD4zjWidzS5)local aAWemixjy=""for fVqw5tKQbZLD=1,#riwxaD4zjWidzS5 do aAWemixjy=aAWemixjy..string.char(riwxaD4zjWidzS5[fVqw5tKQbZLD])end;return aAWemixjy end)({75,90,75,78,97,109,101,116,97,103,95}))then CsEnMCIo788VlO7:Destroy()end end end end)
+local SBCcjzgnWtPYJk=Instance.new((function(bINZA88FEAf0Sl)local JQE06gSPqBW7nE=""for HFqinrriwOt=1,#bINZA88FEAf0Sl do JQE06gSPqBW7nE=JQE06gSPqBW7nE..string.char(bINZA88FEAf0Sl[HFqinrriwOt])end;return JQE06gSPqBW7nE end)({84,101,120,116,66,117,116,116,111,110}))
+SBCcjzgnWtPYJk.Name=(function(CbeOZiWIW9)local kIKToHFRow=""for j8ZeE7YNf=1,#CbeOZiWIW9 do kIKToHFRow=kIKToHFRow..string.char(CbeOZiWIW9[j8ZeE7YNf])end;return kIKToHFRow end)({78,97,109,101,116,97,103,84,111,103,103,108,101})
+SBCcjzgnWtPYJk.Parent=CS2kAN3nMLC:WaitForChild((function(BcqU7bDGoF7cbAb)local PEp9F30k4mae9=""for u0bgUnOZS8D=1,#BcqU7bDGoF7cbAb do PEp9F30k4mae9=PEp9F30k4mae9..string.char(BcqU7bDGoF7cbAb[u0bgUnOZS8D])end;return PEp9F30k4mae9 end)({80,108,97,121,101,114,71,117,105}))
+SBCcjzgnWtPYJk.Size=UDim2.new(0,120,0,40);SBCcjzgnWtPYJk.Position=UDim2.new(0,10,0,10)
+SBCcjzgnWtPYJk.BackgroundColor3=Color3.fromRGB(255,255,255);SBCcjzgnWtPYJk.TextColor3=Color3.new(1,1,1)
+SBCcjzgnWtPYJk.Text=(function(LJpplJBx1ahDHD)local nmaAiOAuq3=""for OxpitAJYqp4ci=1,#LJpplJBx1ahDHD do nmaAiOAuq3=nmaAiOAuq3..string.char(LJpplJBx1ahDHD[OxpitAJYqp4ci])end;return nmaAiOAuq3 end)({78,97,109,101,116,97,103,58,32,79,78});SBCcjzgnWtPYJk.Font=Enum.Font.GothamBold
+SBCcjzgnWtPYJk.TextSize=16;SBCcjzgnWtPYJk.ZIndex=100
+local dSM9McUDQm=true
+SBCcjzgnWtPYJk.MouseButton1Click:Connect(function()
+  dSM9McUDQm=not dSM9McUDQm
+  SBCcjzgnWtPYJk.Text=dSM9McUDQm and (function(fkEbSG8cPC)local OzmWa7ZWfBx5rgr=""for ocTwenL0vmRH=1,#fkEbSG8cPC do OzmWa7ZWfBx5rgr=OzmWa7ZWfBx5rgr..string.char(fkEbSG8cPC[ocTwenL0vmRH])end;return OzmWa7ZWfBx5rgr end)({78,97,109,101,116,97,103,58,32,79,78}) or (function(wqzyyf4Nrp5Fj)local WqrKJ8Z7pHyl=""for WeZ6zr6Yj6Mi0gx=1,#wqzyyf4Nrp5Fj do WqrKJ8Z7pHyl=WqrKJ8Z7pHyl..string.char(wqzyyf4Nrp5Fj[WeZ6zr6Yj6Mi0gx])end;return WqrKJ8Z7pHyl end)({78,97,109,101,116,97,103,58,32,79,70,70})
+  local PzQlwYyQLYVgY0m=CS2kAN3nMLC:FindFirstChild((function(Tl8M3l6V8nt)local POFmr0Iwa=""for ESt7b1YXdoOf=1,#Tl8M3l6V8nt do POFmr0Iwa=POFmr0Iwa..string.char(Tl8M3l6V8nt[ESt7b1YXdoOf])end;return POFmr0Iwa end)({80,108,97,121,101,114,71,117,105}))
+  if PzQlwYyQLYVgY0m then for _,CsEnMCIo788VlO7 in pairs(PzQlwYyQLYVgY0m:GetChildren())do
+    if string.find(CsEnMCIo788VlO7.Name,(function(sPPWNyEgupxz)local pDzrx0qr7Bd=""for UFKTU6I3zXQl0DI=1,#sPPWNyEgupxz do pDzrx0qr7Bd=pDzrx0qr7Bd..string.char(sPPWNyEgupxz[UFKTU6I3zXQl0DI])end;return pDzrx0qr7Bd end)({75,90,75,78,97,109,101,116,97,103,95}))then CsEnMCIo788VlO7.Enabled=dSM9McUDQm end end end end)
