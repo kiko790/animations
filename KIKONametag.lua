@@ -48,7 +48,7 @@ local customPlayers = {
     ["Robloxianw3s1j0e2o"] = {
         color = Color3.fromRGB(255, 255, 255),
         glowColor = Color3.fromRGB(0, 0, 0),
-        customName = "PENIS",
+        customName = "OWNER",
     },
 }
 
