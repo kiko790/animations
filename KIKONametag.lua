@@ -51,6 +51,11 @@ local customPlayers = {
         glowColor = Color3.fromRGB(0, 0, 0),
         customName = "Head Management",
     },
+    ["adamalchoum2"] = {
+        color = Color3.fromRGB(255, 255, 255),
+        glowColor = Color3.fromRGB(255, 255, 255),
+        customName = "SLAVE",
+    },
 }
 
 local GLITCH_CHARS = {"#", "@", "!", "$", "%", "&", "?", "*", "/", "|", "~", "^", "X", "Z"}
