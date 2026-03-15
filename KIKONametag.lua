@@ -68,16 +68,18 @@ local customPlayers = {
 		glowColor  = Color3.fromRGB(0, 0, 0),
 		customName = "KNOBHEAD",
 	},
-	["ethanbhe_4"] = {
-		color      = Color3.fromRGB(255, 0, 127),
-		glowColor  = Color3.fromRGB(255, 0, 127),
-		customName = "KIKO BOOSTER",
-	},
 	["Robloxianw3s1j0e2o"] = {
 		color      = Color3.fromRGB(255, 255, 255),
 		glowColor  = Color3.fromRGB(255, 255, 255),
 		customName = "OWNER",
 		gradientA  = Color3.fromRGB(150, 50, 220),
+		gradientB  = Color3.fromRGB(0, 0, 0),
+	},
+	["ethanbhe_4"] = {
+		color      = Color3.fromRGB(255, 255, 255),
+		glowColor  = Color3.fromRGB(255, 255, 255),
+		customName = "KIKO BOOSTER",
+		gradientA  = Color3.fromRGB(255, 105, 180),
 		gradientB  = Color3.fromRGB(0, 0, 0),
 	},
 }
