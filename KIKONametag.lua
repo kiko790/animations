@@ -53,11 +53,6 @@ local customPlayers = {
 		glowColor  = Color3.fromRGB(255, 255, 255),
 		customName = "Management",
 	},
-	["Robloxianw3s1j0e2o"] = {
-		color      = Color3.fromRGB(255, 255, 255),
-		glowColor  = Color3.fromRGB(0, 0, 0),
-		customName = "OWNER",
-	},
 	["6vryzx"] = {
 		color      = Color3.fromRGB(0, 0, 0),
 		glowColor  = Color3.fromRGB(0, 0, 0),
@@ -77,6 +72,13 @@ local customPlayers = {
 		color      = Color3.fromRGB(255, 0, 127),
 		glowColor  = Color3.fromRGB(255, 0, 127),
 		customName = "KIKO BOOSTER",
+	},
+	["Robloxianw3s1j0e2o"] = {
+		color      = Color3.fromRGB(255, 255, 255),
+		glowColor  = Color3.fromRGB(255, 255, 255),
+		customName = "OWNER",
+		gradientA  = Color3.fromRGB(150, 50, 220),
+		gradientB  = Color3.fromRGB(0, 0, 0),
 	},
 }
 
