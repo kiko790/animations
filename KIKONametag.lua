@@ -28,7 +28,7 @@ local taggedPlrs    = {}
 local respondedPlrs = {}
 local mutualPlrs    = {}
 
-local defaultTagSz  = UDim2.new(0, 260, 0, 42)
+local defaultTagSz  = UDim2.new(0, 230, 0, 42)
 local tagOff        = Vector3.new(0, 2.2, 0)
 local LOGO_ASSET_ID = "rbxassetid://"
 
