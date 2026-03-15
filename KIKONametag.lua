@@ -521,35 +521,47 @@ end)
 
 local hasInitialized = false
 
+local hasResponded = {}
+
 local function handleMessage(msg, ch)
-	if msg and msg.Text and string.find(string.lower(msg.Text), "،،،") then
-		local src = msg.TextSource
-		if src then
-			local sender = plrs:GetPlayerByUserId(src.UserId)
-			if sender and sender ~= lp then
-				mutualPlrs[sender.UserId] = true
-				if not respondedPlrs[sender.UserId] then
-					respondedPlrs[sender.UserId] = true
-					task.wait(0.5)
-					ch:SendAsync("،")
-				end
-				if not taggedPlrs[sender.UserId] then
-					if sender.Character then buildTag(sender)
-					else sender.CharacterAdded:Wait(); wait(0.5); buildTag(sender) end
-				end
+	if not msg or not msg.Text then return end
+	local text = msg.Text
+	local src = msg.TextSource
+	if not src then return end
+	local sender = plrs:GetPlayerByUserId(src.UserId)
+	if not sender or sender == lp then return end
+
+	if string.find(text, "،،،") then
+		mutualPlrs[sender.UserId] = true
+
+		local shouldReply = true
+		for _, plr in pairs(plrs:GetPlayers()) do
+			if plr ~= lp and plr.UserId < lp.UserId and mutualPlrs[plr.UserId] then
+				shouldReply = false
+				break
 			end
 		end
-	elseif msg and msg.Text and string.find(string.lower(msg.Text), "،") and not string.find(string.lower(msg.Text), "،،،") then
-		local src = msg.TextSource
-		if src then
-			local sender = plrs:GetPlayerByUserId(src.UserId)
-			if sender and sender ~= lp then
-				mutualPlrs[sender.UserId] = true
-				if not taggedPlrs[sender.UserId] then
-					if sender.Character then buildTag(sender)
-					else sender.CharacterAdded:Wait(); wait(0.5); buildTag(sender) end
-				end
-			end
+
+		local replyKey = tostring(sender.UserId)
+		if shouldReply and not hasResponded[replyKey] then
+			hasResponded[replyKey] = true
+			task.wait(0.5)
+			ch:SendAsync("،")
+			task.delay(5, function()
+				hasResponded[replyKey] = nil
+			end)
+		end
+
+		if not taggedPlrs[sender.UserId] then
+			if sender.Character then buildTag(sender)
+			else sender.CharacterAdded:Wait(); wait(0.5); buildTag(sender) end
+		end
+
+	elseif string.find(text, "،") and not string.find(text, "،،،") then
+		mutualPlrs[sender.UserId] = true
+		if not taggedPlrs[sender.UserId] then
+			if sender.Character then buildTag(sender)
+			else sender.CharacterAdded:Wait(); wait(0.5); buildTag(sender) end
 		end
 	end
 end
