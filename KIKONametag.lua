@@ -55,8 +55,10 @@ local customPlayers = {
 	},
 	["6vryzx"] = {
 		color      = Color3.fromRGB(0, 0, 0),
-		glowColor  = Color3.fromRGB(0, 0, 0),
-		customName = "Head Management",
+		glowColor  = Color3.fromRGB(255, 255, 255),
+		customName = "KIKO YK",
+		gradientA  = Color3.fromRGB(255, 0, 0),
+		gradientB  = Color3.fromRGB(0, 0, 0),
 	},
 	["gsrhgrhehdrh"] = {
 		color      = Color3.fromRGB(255, 192, 203),
