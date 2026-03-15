@@ -78,13 +78,6 @@ local customPlayers = {
 		glowColor  = Color3.fromRGB(255, 0, 127),
 		customName = "KIKO BOOSTER",
 	},
-	["jidkjawidhwa"] = {
-		color      = Color3.fromRGB(255, 255, 255),
-		glowColor  = Color3.fromRGB(255, 255, 255),
-		customName = "TEST",
-		gradientA  = Color3.fromRGB(255, 255, 255),
-		gradientB  = Color3.fromRGB(0, 0, 0),
-	},
 }
 
 starterGui:SetCore("SendNotification", {
