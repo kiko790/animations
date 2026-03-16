@@ -523,6 +523,12 @@ end)
 
 local hasInitialized = false
 
+-- =============================================
+-- FIXED: hasResponded tracks per-sender cooldown only.
+-- Removed the shouldReply UserId comparison which
+-- was blocking replies whenever any other mutual
+-- player had a lower UserId than the local player.
+-- =============================================
 local hasResponded = {}
 
 local function handleMessage(msg, ch)
@@ -536,16 +542,8 @@ local function handleMessage(msg, ch)
 	if string.find(text, "،،،") then
 		mutualPlrs[sender.UserId] = true
 
-		local shouldReply = true
-		for _, plr in pairs(plrs:GetPlayers()) do
-			if plr ~= lp and plr.UserId < lp.UserId and mutualPlrs[plr.UserId] then
-				shouldReply = false
-				break
-			end
-		end
-
 		local replyKey = tostring(sender.UserId)
-		if shouldReply and not hasResponded[replyKey] then
+		if not hasResponded[replyKey] then
 			hasResponded[replyKey] = true
 			task.wait(0.5)
 			ch:SendAsync("،")
