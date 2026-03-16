@@ -53,13 +53,6 @@ local customPlayers = {
 		glowColor  = Color3.fromRGB(255, 255, 255),
 		customName = "Management",
 	},
-	["6vryzx"] = {
-		color      = Color3.fromRGB(0, 0, 0),
-		glowColor  = Color3.fromRGB(255, 255, 255),
-		customName = "KIKO YK",
-		gradientA  = Color3.fromRGB(255, 0, 0),
-		gradientB  = Color3.fromRGB(0, 0, 0),
-	},
 	["gsrhgrhehdrh"] = {
 		color      = Color3.fromRGB(255, 192, 203),
 		glowColor  = Color3.fromRGB(255, 255, 255),
@@ -83,6 +76,13 @@ local customPlayers = {
 		customName = "OWNER",
 		gradientA  = Color3.fromRGB(255, 229, 0),
 		gradientB  = Color3.fromRGB(26, 26, 26),
+	},
+	["6vryzx"] = {
+		color      = Color3.fromRGB(0, 0, 0),
+		glowColor  = Color3.fromRGB(255, 255, 255),
+		customName = "EX CO-OWNER",
+		gradientA  = Color3.fromRGB(0, 0, 225),
+		gradientB  = Color3.fromRGB(0, 0, 0),
 	},
 }
 
