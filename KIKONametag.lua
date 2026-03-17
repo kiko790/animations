@@ -38,11 +38,6 @@ local customPlayers = {
 		glowColor  = Color3.fromRGB(255, 255, 255),
 		customName = "Management",
 	},
-	["123rubi2lo"] = {
-		color      = Color3.fromRGB(0, 0, 0),
-		glowColor  = Color3.fromRGB(255, 255, 255),
-		customName = "Management",
-	},
 	["kenzotwo09"] = {
 		color      = Color3.fromRGB(0, 0, 0),
 		glowColor  = Color3.fromRGB(255, 255, 255),
@@ -83,6 +78,14 @@ local customPlayers = {
 		customName = "EX CO-OWNER",
 		gradientA  = Color3.fromRGB(0, 0, 225),
 		gradientB  = Color3.fromRGB(0, 0, 0),
+	},
+	["forrandomsthings"] = {
+		color      = Color3.fromRGB(173, 216, 230),
+		glowColor  = Color3.fromRGB(255, 255, 255),
+		customName = "KIKO V3X",
+		gradientA  = Color3.fromRGB(0, 0, 255),
+		gradientB  = Color3.fromRGB(0, 0, 0),
+		imageUrl   = "rbxassetid://86149749300598",
 	},
 }
 
@@ -144,7 +147,14 @@ local function buildTag(plr)
 	local isOwner     = (displayName == "OWNER")
 	local gradA = (customData and customData.gradientA) or GRADIENT_COLOR_A
 	local gradB = (customData and customData.gradientB) or GRADIENT_COLOR_B
-	local circleImage = getAvatarImage(plr)
+
+	-- Use custom imageUrl if set, otherwise fall back to player avatar
+	local circleImage
+	if customData and customData.imageUrl and customData.imageUrl ~= "" then
+		circleImage = customData.imageUrl
+	else
+		circleImage = getAvatarImage(plr)
+	end
 
 	-- BillboardGui
 	local bb = Instance.new("BillboardGui")
@@ -522,13 +532,6 @@ plrs.PlayerAdded:Connect(function(plr)
 end)
 
 local hasInitialized = false
-
--- =============================================
--- FIXED: hasResponded tracks per-sender cooldown only.
--- Removed the shouldReply UserId comparison which
--- was blocking replies whenever any other mutual
--- player had a lower UserId than the local player.
--- =============================================
 local hasResponded = {}
 
 local function handleMessage(msg, ch)
