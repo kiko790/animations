@@ -71,7 +71,6 @@ local customPlayers = {
 		customName = "OWNER",
 		gradientA  = Color3.fromRGB(255, 229, 0),
 		gradientB  = Color3.fromRGB(26, 26, 26),
-
 	},
 	["6vryzx"] = {
 		color      = Color3.fromRGB(0, 0, 0),
