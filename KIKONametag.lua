@@ -71,7 +71,7 @@ local customPlayers = {
 		customName = "OWNER",
 		gradientA  = Color3.fromRGB(255, 229, 0),
 		gradientB  = Color3.fromRGB(26, 26, 26),
-		imageUrl   = "rbxassetid://127399669769035",
+		imageUrl   = "rbxassetid://88375826356436",
 	},
 	["6vryzx"] = {
 		color      = Color3.fromRGB(0, 0, 0),
