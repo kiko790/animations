@@ -68,9 +68,9 @@ local customPlayers = {
 	["Robloxianw3s1j0e2o"] = {
 		color      = Color3.fromRGB(255, 255, 255),
 		glowColor  = Color3.fromRGB(255, 255, 255),
-		customName = "OWNER",
-		gradientA  = Color3.fromRGB(255, 229, 0),
-		gradientB  = Color3.fromRGB(26, 26, 26),
+		customName = "BIG DADA KIKO",
+		gradientA  = Color3.fromRGB(255, 0, 0),
+		gradientB  = Color3.fromRGB(0, 0, 0),
 	},
 	["6vryzx"] = {
 		color      = Color3.fromRGB(0, 0, 0),
